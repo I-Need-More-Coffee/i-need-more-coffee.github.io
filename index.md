@@ -1,11 +1,10 @@
-# bliss
+# I Need More Coffee
+### Written by Sohal Sudheer
 
-**Bl**og **i**t **s**imple, **s**tupid!
+I'm Sohal, an undergrad Computer Science student and technology enthusiast who's passionate about open source software, Unix-like operating systems, technology's role in education, technology repair and sustainability, and odd hardware from the early 2010s.
 
-`bliss` is a moderately minimal blog generator, with a build script below 100 lines of shell. It's forked from Bradley Taunt's [barf](https://git.sr.ht/~bt/barf), and keeps things mostly the same while adding in a few little creature comforts for my own use.
+*I Need More Coffee* serves as a place for me to ["just put stuff out there"](https://matthiasott.com/notes/just-put-stuff-out-there), and host a wide variety of content, from deep delves into odd corners of the internet to overviews of the latest piece of strange hardware that's made it's way into my hands. 
 
-You can learn more by reading the [README](https://github.com/sohalsdr/bliss).
-
-You can also view the generated [Atom feed here](./atom.xml)
+I hope you enjoy reading some of my ramblings below :)
 
 ---

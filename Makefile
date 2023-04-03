@@ -1,8 +1,9 @@
-# Builds the site by running bliss script then rsyncing the public directory and stylesheet
+# Builds the site by running bliss script then rsyncing the public directory, stylesheet, and CNAME
 build:
 	./bliss
 	rsync -r public/ build/public
 	rsync style.css build/style.css
+	rsync CNAME build/CNAME
 
 # Cleans up build directory
 clean:
