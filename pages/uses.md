@@ -19,7 +19,6 @@ As a result, this won't be an exhaustive list of devices, but rather a periodica
 ![](../public/images/uses/impenitence.png)
 
 | Key           | Value                       |
-| ------------- | --------------------------- |
 | Type          | Laptop                      |
 | Model         | System76 Darter Pro (darp7) |
 | OS            | Fedora Silverblue 37        |
@@ -39,7 +38,6 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 ### Phone: *Pride II*
 
 | Key           | Value                       |
-| ------------- | --------------------------- |
 | Type          | Smartphone                  |
 | Model         | Apple iPhone 14 Pro (15,2)  |
 | OS            | iOS 16                      |
@@ -52,7 +50,6 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 ### Tablet: *Prejudice*
 
 | Key           | Value                       |
-| ------------- | --------------------------- |
 | Type          | Tablet                      |
 | Model         | Apple iPad 2 (2,1)          |
 | OS            | iOS 6.3.1                   |
@@ -65,7 +62,6 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 ### Sacrificial Windows Machine: *Sloth*
 
 | Key           | Value                       |
-| ------------- | --------------------------- |
 | Type          | Laptop                      |
 | Model         | Dell Latitude 3380          |
 | OS            | Windows 10 ????             |
