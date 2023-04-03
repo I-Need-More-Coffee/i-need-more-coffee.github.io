@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>bliss</title>
-	<link href="https://sohalsdr.github.io/bliss/atom.xml" rel="self" />
-	<updated>2023-04-02T19:16:08Z</updated>
+	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
+	<updated>2023-04-03T09:16:18Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
-	<id>https://sohalsdr.github.io/bliss,2023-01-04:default-atom-feed/</id>
+	<id>https://ineedmore.coffee,2023-01-04:default-atom-feed/</id>
 	<entry>
 		<title>Markdown Examples in bliss</title>
 		<content type="html">&lt;h1&gt;Markdown Examples in bliss&lt;/h1&gt;
@@ -242,8 +242,8 @@ passed through to the resulting document without modification. This is a good
 way to work around features that are missing in smu. If you don&#39;t want this
 behaviour, use the &lt;code&gt;-n&lt;/code&gt; flag when executing smu to stricly escape the HTML
 tags.&lt;/p&gt;</content>
-		<link href="https://sohalsdr.github.io/bliss/markdown-examples"/>
-		<id>https://sohalsdr.github.io/bliss/markdown-examples</id>
+		<link href="https://ineedmore.coffee/markdown-examples"/>
+		<id>https://ineedmore.coffee/markdown-examples</id>
 		<updated>2023-04-02T00:00:00Z</updated>
 		<published>2023-04-02T00:00:00Z</published>
 	</entry>
@@ -255,8 +255,8 @@ tags.&lt;/p&gt;</content>
 &lt;p&gt;This is an example blog post, solely created as an excuse to display this image of my dog Alfie, and so that there&#39;s something in &lt;code&gt;public&lt;/code&gt; and &lt;code&gt;rsync&lt;/code&gt; doesn&#39;t complain about the folder not existing when building the example site.&lt;/p&gt;
 &lt;h3&gt;Why does the image look funny?&lt;/h3&gt;
 &lt;p&gt;The image is &lt;a href=&quot;https://en.wikipedia.org/wiki/Dither&quot;&gt;dithered&lt;/a&gt; using Bayer Ordered Dithering. This creates a pretty distinct &quot;cross-hatched&quot; look, and more importantly cuts image size down massively to make pages more responsive. &lt;a href=&quot;https://ditherit.com/&quot;&gt;Dither it!&lt;/a&gt; is a great tool to quickly dither images online.&lt;/p&gt;</content>
-		<link href="https://sohalsdr.github.io/bliss/alfie"/>
-		<id>https://sohalsdr.github.io/bliss/alfie</id>
+		<link href="https://ineedmore.coffee/alfie"/>
+		<id>https://ineedmore.coffee/alfie</id>
 		<updated>2023-04-02T00:00:00Z</updated>
 		<published>2023-04-02T00:00:00Z</published>
 	</entry>
