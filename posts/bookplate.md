@@ -56,15 +56,15 @@ I then printed this out, cut them using a paper guillotine (this ended up being 
 
 ![Stack of printed bookplates](../public/images/bookplate/stacked_bookplate.png)
 
-With bookplates in hand, I promptly went and stuck one in the center of the front inside cover of the journals I'm currently using.
+With bookplates in hand, I promptly went and stuck one in the center of the front inside cover of the each of the journals I'm currently using.
 
 ![Bookplate pasted in cover of book](../public/images/bookplate/in_cover.png)
 
 ## Conclusion
 
-This was a really fun little delve, and I really liked the end result. If this intrigues you as well, why not make your own? I think seeing someone's bookplate in a book I buy secondhand would give me a little extra appreciation for it and make me cherish it that bit more. Bookplates are very individual, so there's no need to stick with conventions or try to fit any one style. Make one in whichever style and medium makes you happy!
+This was a really fun little delve, and I really liked the end result. If this intrigues you as well, why not make your own? I think seeing someone's bookplate in a book I buy secondhand would give me a little extra appreciation for it and make me cherish it that much more. Bookplates are very individual, so there's no need to stick with conventions or try to fit any one style. Make one in whichever style and medium makes you happy!
 
-I'll likely stick with this design for a while, but may update it eventually as my own tastes change. It may be fun to be able to look at my books later, and be able to determine when I got them just by the bookplate design.
+I'll likely stick with this design for a while, but may update it eventually as my own tastes change. Who knows, it could be fun to be able to look at my books later, and be able to determine when I got them just by the bookplate design.
 
 **To check out the SVG files for the two bookplates I made, check out [the repository](https://github.com/sohalsdr/exlibris).**
 
