@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-04-04T14:43:31Z</updated>
+	<updated>2023-04-04T15:53:46Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -24,7 +24,7 @@
 	<entry>
 		<title>ex librīs</title>
 		<content type="html">&lt;h1&gt;ex librīs&lt;/h1&gt;
-&lt;p&gt;2023-04-03&lt;/p&gt;
+&lt;p&gt;2023-04-04&lt;/p&gt;
 &lt;p&gt;During some internet exploration a few days ago, I stumbled upon a &lt;a href=&quot;https://raypatrick.xyz/blog/2023/01/27/my-bookplate/&quot;&gt;blog post&lt;/a&gt; where the author details making a bookplate for their personal library. Sufficiently intrigued, I began doing a little research on this historic practice, and ended up creating my own.&lt;/p&gt;
 &lt;h2&gt;What is a bookplate?&lt;/h2&gt;
 &lt;p&gt;A &lt;strong&gt;bookplate&lt;/strong&gt; (or &lt;em&gt;ex librīs&lt;/em&gt;) is a label affixed to the inside of a book, often on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Endpaper&quot;&gt;front endpaper&lt;/a&gt;, indicating the ownership of the book. These get quite creative, with a &lt;a href=&quot;https://rentafont.com.ua/blog/znadibky-Istorychni/exlibrysy-yakova-hnizdovskogo&quot;&gt;wide variety of designs, subject matter, and techniques used&lt;/a&gt;.&lt;/p&gt;
@@ -38,7 +38,7 @@
 &lt;h3&gt;Design&lt;/h3&gt;
 &lt;p&gt;The first portion to tackle was the design. I opted to design mine digitally, as it would give me the most flexibility. I downloaded &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;, and started messing around with some text to come up with this very minimal design with the &lt;a href=&quot;https://github.com/rsms/inter&quot;&gt;Inter&lt;/a&gt; typeface:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;../public/images/bookplate/text-only-exlibris.png&quot; alt=&quot;Text-only bookplate concept&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Note: The images on this site are &lt;a href=&quot;/meta&quot;&gt;dithered&lt;/a&gt;. The SVGs are located &lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;here&lt;/a&gt;&lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;the repository&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: The images on this site are &lt;a href=&quot;/meta&quot;&gt;dithered&lt;/a&gt;. The SVGs are located &lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;This one was pretty easy, and looked pretty clean and modern, but I decided I wanted something with a little more character, so I pulled out my legal pad and sketched up this concept:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;../public/images/bookplate/draft-exlibris.png&quot; alt=&quot;Bookplate sketch on paper&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After an afternoon learning the basics of Inkscape, I then had this design, featuring the &lt;a href=&quot;http://www.georgduffner.at/ebgaramond/&quot;&gt;EB Garamond typeface&lt;/a&gt;:&lt;/p&gt;
@@ -72,7 +72,7 @@
 &lt;p&gt;&lt;a href=&quot;https://www.walmart.com/ip/Avery-Shipping-Labels-White-8-1-2-x-11-True-Block-Laser-Inkjet-10-Labels-15265/34202344?&quot;&gt;Printable Shipping Labels&lt;/a&gt;&lt;/p&gt;</content>
 		<link href="https://ineedmore.coffee/bookplate"/>
 		<id>https://ineedmore.coffee/bookplate</id>
-		<updated>2023-04-03T00:00:00Z</updated>
-		<published>2023-04-03T00:00:00Z</published>
+		<updated>2023-04-04T00:00:00Z</updated>
+		<published>2023-04-04T00:00:00Z</published>
 	</entry>
 </feed>
