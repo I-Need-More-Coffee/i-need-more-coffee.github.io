@@ -1,6 +1,6 @@
 # ex librīs
 
-2023-04-03
+2023-04-04
 
 During some internet exploration a few days ago, I stumbled upon a [blog post](https://raypatrick.xyz/blog/2023/01/27/my-bookplate/) where the author details making a bookplate for their personal library. Sufficiently intrigued, I began doing a little research on this historic practice, and ended up creating my own.
 
@@ -28,7 +28,7 @@ The first portion to tackle was the design. I opted to design mine digitally, as
 
 ![Text-only bookplate concept](../public/images/bookplate/text-only-exlibris.png)
 
-*Note: The images on this site are [dithered](/meta). The SVGs are located [here](https://github.com/sohalsdr/exlibris)[the repository](https://github.com/sohalsdr/exlibris)*
+*Note: The images on this site are [dithered](/meta). The SVGs are located [here](https://github.com/sohalsdr/exlibris)*
 
 This one was pretty easy, and looked pretty clean and modern, but I decided I wanted something with a little more character, so I pulled out my legal pad and sketched up this concept:
 
