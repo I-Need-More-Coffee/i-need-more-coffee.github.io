@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-04-03T13:49:26Z</updated>
+	<updated>2023-04-04T14:43:31Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -11,7 +11,6 @@
 		<title>A first post</title>
 		<content type="html">&lt;h1&gt;A first post&lt;/h1&gt;
 &lt;p&gt;2023-04-03&lt;/p&gt;
-&lt;p&gt;Gainesville, Florida&lt;/p&gt;
 &lt;p&gt;A first post is always very difficult to write. This one is definitely more of a placeholder than a grand occasion, and may get deleted later, but a first post it is nonetheless.&lt;/p&gt;
 &lt;p&gt;I&#39;ve been putting off getting this blog/&quot;brain dump&quot;/&quot;digital garden&quot; set up for weeks now, so I&#39;m very excited to finally have a place to put some of the article ideas I&#39;ve had saved in my notes for a long time.&lt;/p&gt;
 &lt;p&gt;I&#39;d also like to start the &lt;a href=&quot;https://100daystooffload.com/&quot;&gt;#100DaysToOffload&lt;/a&gt; challenge, and I suppose that makes this post 1/100.&lt;/p&gt;
@@ -19,6 +18,60 @@
 &lt;p&gt;- Sohal&lt;/p&gt;</content>
 		<link href="https://ineedmore.coffee/first"/>
 		<id>https://ineedmore.coffee/first</id>
+		<updated>2023-04-03T00:00:00Z</updated>
+		<published>2023-04-03T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>ex librīs</title>
+		<content type="html">&lt;h1&gt;ex librīs&lt;/h1&gt;
+&lt;p&gt;2023-04-03&lt;/p&gt;
+&lt;p&gt;During some internet exploration a few days ago, I stumbled upon a &lt;a href=&quot;https://raypatrick.xyz/blog/2023/01/27/my-bookplate/&quot;&gt;blog post&lt;/a&gt; where the author details making a bookplate for their personal library. Sufficiently intrigued, I began doing a little research on this historic practice, and ended up creating my own.&lt;/p&gt;
+&lt;h2&gt;What is a bookplate?&lt;/h2&gt;
+&lt;p&gt;A &lt;strong&gt;bookplate&lt;/strong&gt; (or &lt;em&gt;ex librīs&lt;/em&gt;) is a label affixed to the inside of a book, often on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Endpaper&quot;&gt;front endpaper&lt;/a&gt;, indicating the ownership of the book. These get quite creative, with a &lt;a href=&quot;https://rentafont.com.ua/blog/znadibky-Istorychni/exlibrysy-yakova-hnizdovskogo&quot;&gt;wide variety of designs, subject matter, and techniques used&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The actual medium varies widely as well, with traditional bookplates having their designs &lt;a href=&quot;https://en.wikipedia.org/wiki/Burin_(engraving)&quot;&gt;hand engraved into copper&lt;/a&gt;, being printed onto paper with an &lt;a href=&quot;https://en.wikipedia.org/wiki/Intaglio_press&quot;&gt;intaglio press&lt;/a&gt;, and then glued into a book. &lt;/p&gt;
+&lt;p&gt;When looking at modern day bookplates, I saw two main categories. Many bookplates use &lt;strong&gt;self-adhesive paper&lt;/strong&gt;, such as ones offered by &lt;a href=&quot;https://bookplateink.com/&quot;&gt;commercial sites&lt;/a&gt;. Others, including the author of the post that initially inspired this, use &lt;strong&gt;stamps&lt;/strong&gt;, as besides the initial cost of the stamp, they are exceptionally cheap and easy. However, there is controversy around stamped bookplates as bibliopholes argue that they degrade a book, and decrease it&#39;s value rather than increasing it.&lt;/p&gt;
+&lt;h2&gt;Why bookplates?&lt;/h2&gt;
+&lt;p&gt;An equally interesting topic is the reason for even using bookplates in the first place. Bookplates originally stem from other methods to &lt;strong&gt;indicate ownership&lt;/strong&gt; and &lt;strong&gt;dissuade theft&lt;/strong&gt; of a book, such as &lt;a href=&quot;https://en.wikipedia.org/wiki/Book_rhyme&quot;&gt;book rhymes&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Book_curse&quot;&gt;book curses&lt;/a&gt; printed within a book. They&#39;re also &lt;strong&gt;surprisingly old&lt;/strong&gt;, with the first &quot;modern bookplate&quot; being from 15th century Germany. Over the following centuries, it became very common for affluent people with personal libraries to have their own bookplates, and have been extremely helpful in &lt;a href=&quot;https://www.atlasobscura.com/articles/mystery-bookplate-collection&quot;&gt;helping modern historians trace the ownership of old books&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Around the late 19th to early 20th centuries, bookplates became more common among middle class American households, as they gained wealth and sought to emulate the customs of &quot;old money&quot; families. They also started varying more in design, branching out from the traditional crests and coats of arms to have more unique art (I was particularly struck by &lt;a href=&quot;https://content.artofmanliness.com/uploads/2014/04/einstein.jpg&quot;&gt;Albert Einstein&#39;s&lt;/a&gt;). Unfortunately, bookplates fell in popularity by around the 50s, likely due to cultural changes after World War II and the switch to primarily paperback books.&lt;/p&gt;
+&lt;h2&gt;Creating my own bookplate&lt;/h2&gt;
+&lt;p&gt;Armed with more knowledge and a newfound appreciation for the &lt;em&gt;ex librīs&lt;/em&gt;, I decided to create my own. I enjoy customizing the objects I own, and this seemed like a fun way to add a personal touch to my own books. I haven&#39;t been a super prolific reader since I was a little kid, so my bookplate is more for my arsenal of journals and notebooks, but I do hope that having a bookplate encourages me to purchase and read more books as I build up a humble personal library. &lt;/p&gt;
+&lt;h3&gt;Design&lt;/h3&gt;
+&lt;p&gt;The first portion to tackle was the design. I opted to design mine digitally, as it would give me the most flexibility. I downloaded &lt;a href=&quot;https://inkscape.org/&quot;&gt;Inkscape&lt;/a&gt;, and started messing around with some text to come up with this very minimal design with the &lt;a href=&quot;https://github.com/rsms/inter&quot;&gt;Inter&lt;/a&gt; typeface:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/bookplate/text-only-exlibris.png&quot; alt=&quot;Text-only bookplate concept&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: The images on this site are &lt;a href=&quot;/meta&quot;&gt;dithered&lt;/a&gt;. The SVGs are located &lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;here&lt;/a&gt;&lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;the repository&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This one was pretty easy, and looked pretty clean and modern, but I decided I wanted something with a little more character, so I pulled out my legal pad and sketched up this concept:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/bookplate/draft-exlibris.png&quot; alt=&quot;Bookplate sketch on paper&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After an afternoon learning the basics of Inkscape, I then had this design, featuring the &lt;a href=&quot;http://www.georgduffner.at/ebgaramond/&quot;&gt;EB Garamond typeface&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/bookplate/exlibris.png&quot; alt=&quot;Final version of my bookplate&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The motto, &lt;em&gt;ad īnfīnīta mystēria&lt;/em&gt;, means &quot;to infinite mysteries&quot; in Latin, and reflects my disposition to always learning more. I then chose the coffee/tea mug as it&#39;s simple, and something warm and caffeinated is always a great companion to a good book.&lt;/p&gt;
+&lt;h3&gt;Medium&lt;/h3&gt;
+&lt;p&gt;With a design in hand, the next decision to make was whether to print the bookplate out or turn it into a stamp. Looking at the prices to get a custom stamp made, I decided that it would be simpler and quicker to simply get some self-adhesive paper and print the bookplate on that.&lt;/p&gt;
+&lt;p&gt;I found these &lt;a href=&quot;https://www.walmart.com/ip/Avery-Shipping-Labels-White-8-1-2-x-11-True-Block-Laser-Inkjet-10-Labels-15265/34202344?&quot;&gt;letter-sized shipping labels&lt;/a&gt; for cheap enough at my local Wal-Mart, and they seemed decent enough for the job.&lt;/p&gt;
+&lt;p&gt;As my design was 2 inches by 2 inches, I determined I&#39;d be able to fit 20 of them on my page, and used the &lt;code&gt;montage&lt;/code&gt; command that &lt;code&gt;imagemagick&lt;/code&gt; ships to create a printable page with the bookplate tiled 20 times (I&#39;m sure there was a more elegant way to do this):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;montage -geometry 1024x1024 -tile 4x5 exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris.png exlibris_print.pdf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I then printed this out, cut them using a paper guillotine (this ended up being way harder than I thought), and had my bookplates!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/bookplate/stacked_bookplate.png&quot; alt=&quot;Stack of printed bookplates&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;With bookplates in hand, I promptly went and stuck one in the center of the front inside cover of the journals I&#39;m currently using.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/bookplate/in_cover.png&quot; alt=&quot;Bookplate pasted in cover of book&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This was a really fun little delve, and I really liked the end result. If this intrigues you as well, why not make your own? I think seeing someone&#39;s bookplate in a book I buy secondhand would give me a little extra appreciation for it and make me cherish it that bit more. Bookplates are very individual, so there&#39;s no need to stick with conventions or try to fit any one style. Make one in whichever style and medium makes you happy!&lt;/p&gt;
+&lt;p&gt;I&#39;ll likely stick with this design for a while, but may update it eventually as my own tastes change. It may be fun to be able to look at my books later, and be able to determine when I got them just by the bookplate design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To check out the SVG files for the two bookplates I made, check out &lt;a href=&quot;https://github.com/sohalsdr/exlibris&quot;&gt;the repository&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;h3&gt;History&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Ex_Libris_(bookplate)&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bookriot.com/history-of-bookplates/&quot;&gt;Book Riot Article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.atlasobscura.com/articles/mystery-bookplate-collection&quot;&gt;Atlas Obscura Article&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Inspiration&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://raypatrick.xyz/blog/2023/01/27/my-bookplate/&quot;&gt;Original Ray Patrick Article&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://rentafont.com.ua/blog/znadibky-Istorychni/exlibrysy-yakova-hnizdovskogo&quot;&gt;Ukrainian Bookplate Collection&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.artofmanliness.com/living/reading/ex-libris-the-bookplates-of-31-famous-men/&quot;&gt;Bookplates of Influential Men&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Other&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://bookplateink.com/&quot;&gt;Bookplate Ink - Commercial Bookplate Seller&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.walmart.com/ip/Avery-Shipping-Labels-White-8-1-2-x-11-True-Block-Laser-Inkjet-10-Labels-15265/34202344?&quot;&gt;Printable Shipping Labels&lt;/a&gt;&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/bookplate"/>
+		<id>https://ineedmore.coffee/bookplate</id>
 		<updated>2023-04-03T00:00:00Z</updated>
 		<published>2023-04-03T00:00:00Z</published>
 	</entry>
