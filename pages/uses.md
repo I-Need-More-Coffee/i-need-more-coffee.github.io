@@ -8,9 +8,7 @@ I always love seeing the technology, software, workflows and anything else that 
 
 ## Devices
 
-I have a *lot* of devices. A consequence of growing up in an area with a population of rich tech employees getting rid of devices every couple of years is that I was able to easily and cheaply get my hands on more computers and electronics than I even know what to do with, and that are just old enough to be undesirable to other people.
-
-As a result, this won't be an exhaustive list of devices, but rather a periodically updated summary of my most-used hardware.
+**I have a** ***lot*** **of devices**. A consequence of growing up in an area with a population of rich tech employees getting rid of devices every couple of years is that I have been able to easily and cheaply get my hands on more computers and electronics than I even know what to do with, and that are just old enough to be undesirable to other people. ****As a result, this won't be an exhaustive list of devices, but rather a periodically updated summary of my most-used hardware.**
 
 ***Note on hostnames:*** *My devices' hostnames are named after various sins and virtues, initially inspired by the villains of [Fullmetal Alchemist: Brotherhood](https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood).* ***Laptops, desktops, and mobile devices are assigned sins, while servers and other headless systems are assigned virtues.*** *Hostnames are assigned, to an extent, based on a machine's purpose, so a device that replaces another (like a new phone), will have the same hostname with an incremented suffix (such as Pride being replaced by Pride II).*
 
