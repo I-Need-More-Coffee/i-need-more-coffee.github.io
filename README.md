@@ -9,5 +9,5 @@ Check it out [here](https://ineedmore.coffee)
 1. Make a new post in `posts/`
 	a. Put any images for that post in `public/images/<post-name>`
 2. Run `make build` to rebuild the site
-3. `git add` and `git commit`
+3. `git add`, `git commit`, and `git push`
 4. Use `git subtree push --prefix build/ origin gh-pages` to push the contents of the build directory to the gh-pages branch
