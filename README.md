@@ -11,3 +11,5 @@ Check it out [here](https://ineedmore.coffee)
 2. Run `make build` to rebuild the site
 3. `git add`, `git commit`, and `git push`
 4. Use `git subtree push --prefix build/ origin gh-pages` to push the contents of the build directory to the gh-pages branch
+
+***Note:** In the case of a page build error, you can run steps 2-4 again to trigger a commit that just updates a timestamp in the atom feed and forces Pages to attempt a rebuild.*

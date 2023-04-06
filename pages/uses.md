@@ -35,6 +35,8 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 
 ### Phone: *Pride II*
 
+![iPhone 14 Pro from the front](../public/images/uses/pride2.png)
+
 | Key           | Value                       |
 | Type          | Smartphone                  |
 | Model         | Apple iPhone 14 Pro (15,2)  |
@@ -45,9 +47,9 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 | RAM           | 6GB                         |
 | Storage       | 128GB NVMe                  |
 
-![iPhone 14 Pro from the front](../public/images/uses/pride2.png)
-
 ### Tablet: *Prejudice*
+
+![iPad 2 from the front](../public/images/uses/prejudice.png)
 
 | Key           | Value                       |
 | Type          | Tablet                      |
@@ -59,9 +61,9 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 | RAM           | 512MB                       |
 | Storage       | 16GB Flash                  |
 
-![iPad 2 from the front](../public/images/uses/prejudice.png)
-
 ### Sacrificial Windows Machine: *Sloth*
+
+![Latitude 3380 from the front](../public/images/uses/sloth.png)
 
 | Key           | Value                         |
 | Type          | Laptop                        |
@@ -73,8 +75,6 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 | GPU           | Intel HD Graphics 520         |
 | RAM           | 4GB DDR4                      |
 | Storage       | 128GB SATA SSD                |
-
-![Latitude 3380 from the front](../public/images/uses/sloth.png)
 
 ## Stationery
 
