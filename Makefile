@@ -1,13 +1,13 @@
 # Builds the site by running bliss script then rsyncing the public directory, stylesheet, and CNAME
 build:
 	./bliss
-	rsync -r public/ build/public
-	rsync style.css build/style.css
-	rsync CNAME build/CNAME
+	rsync -r public/ docs/public
+	rsync style.css docs/style.css
+	rsync CNAME docs/CNAME
 
 # Cleans up build directory
 clean:
-	rm -rf build/*
+	rm -rf docs/*
 
 # For testing locally, see README
 watch:
