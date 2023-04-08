@@ -78,7 +78,7 @@ I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject
 
 ## Stationery
 
-## Go-to Pen: [The Pilot G2](https://www.pilotpen.us/brands/g2/)
+### Go-to Pen: [The Pilot G2](https://www.pilotpen.us/brands/g2/)
 
 ![Pilot G2 Pen](../public/images/uses/g2.png)
 
