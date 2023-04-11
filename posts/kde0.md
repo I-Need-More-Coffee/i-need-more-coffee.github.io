@@ -1,4 +1,4 @@
-# KDE Experiment Day 0: Giving It A Sincere Try
+# Giving KDE A Sincere Try
 
 2023-04-07
 
@@ -31,3 +31,7 @@ In particular, I was astounded by the sheer amount of choices in the keyboard sh
 So far, I also really appreciate how snappy and sane KWin’s quick-tiling is. One of my gripes with GNOME has been how limiting only letting uses easily tile two applications side by side is. Additionally, GNOME adds more animations to this, and the tiling simply doesn’t feel as snappy or quick as a result.
 
 I’m still not quite sure how much I’ll be able to get used to Plasma’s design language, but maybe some customization will help with that part, especially considering that even on GNOME I change the system theme and interface font to my own liking (with immense effort thanks to the switch to `libadwaita`). **Tonight and tomorrow, I plan on getting the applications I need installed and configured, as well as begin trying out some of KDE’s applications for various tasks, but overall I'm excited to kick the tires and see what KDE has to offer!**
+
+---
+
+**Edit (2023-04-11):** I opted not to write a sequel to this post, as I stuck with the experiment, and rather enjoyed KDE, but didn't feel like I had enough thoughts to structure an entirely separate post. Overall, the interface is certainly more busy, but does managed to look very cohesive and well-organized nonetheless, expecially when paired with a good system theme like [Lightly](https://github.com/Luwx/Lightly) and a good colorscheme like [Catppuccin Latte](https://github.com/catppuccin/kde) (yes, I went with a light theme for this setup, as KDE actually looks really good with light themes, whether it's the default Breeze theme or with a third party one like the aforementioned). I'll be going back to my Fedora Silverblue setup for now, especially as the distro I chose, KDE Neon, doesn't work very well with my hardware, but I do hope to have a machine running KDE full time at some point!
