@@ -2,6 +2,8 @@
 
 2023-04-12
 
+*<small>Note: I go into a bit of background on this phone during the first portion of this article. If you want to skip straight to the setup guide, scroll down to "Unlocking the Potential".</small>*
+
 Around a week ago, I noticed a flip phone being auctioned off on my city's surplus website. I've been looking around for interesting phones as part of a separate project, so I jumped on it and bought it, not entirely knowing the rabbit hole I'd go down in my attempts to push the capabilities of this device.
 
 The device in question is a **[Kyocera DuraXV LTE](https://www.phonearena.com/phones/Kyocera-DuraXV-LTE_id10714)**, a rugged flip phone from 2017:
@@ -28,7 +30,7 @@ The device in question is a **[Kyocera DuraXV LTE](https://www.phonearena.com/ph
 
 This phone's hardware is definitely unique. It appears to be a slightly upgraded and heavily ruggedized cousin to the [Kyocera Cadence](https://www.phonearena.com/phones/Kyocera-Cadence-LTE_id10675) (this becomes relevant later), and has this interesting "rounded hexagon" motif going on. The buttons arent too bad, the D-Pad feels nice, and overall it generally feels much higher end than the usual budget KaiOS feature phones.
 
-What's really interesting about this phone is the operating system it's running. With modern flip/feature phones, outside of generic ones that use an RTOS, the two most prominent options are the [veritable battalion of KaiOS phones](https://www.kaiostech.com/explore/devices/) on the low end, with their basic apps and limited functionality, and full on Android feature phones, like the [AGM M7]() and [Xiaomi F21 Pro]() where the only differentiating factor from a low-end smartphone is the form factor. However, somewhere in the middle, there is a category of stealth Android phones, phones that use a locked down version of AOSP but don't make it clear to the user. **This Kyocera phone is just that, a flip phone that on the surface appears to be a boring, basic interface, but is secretly hiding Android goodies underneath**. These phones at an initial glance seem to be even less capable than KaiOS phones, typically not even letting users install applications. However, with just a bit of tweaking, we can unlock all sorts of functionality.
+What's really interesting about this phone is the operating system it's running. With modern flip/feature phones, outside of generic ones that use an RTOS, the two most prominent options are the [veritable battalion of KaiOS phones](https://www.kaiostech.com/explore/devices/) on the low end, with their basic apps and limited functionality, and full on Android feature phones, like the [AGM M7](https://www.agmmobile.com/pages/agm-m7) and [Xiaomi F21 Pro](https://www.aliexpress.us/item/3256803156280932.html) where the only differentiating factor from a low-end smartphone is the form factor. However, somewhere in the middle, there is a category of stealth Android phones, phones that use a locked down version of AOSP but don't make it clear to the user. **This Kyocera phone is just that, a flip phone that on the surface appears to be a boring, basic interface, but is secretly hiding Android goodies underneath**. These phones at an initial glance seem to be even less capable than KaiOS phones, typically not even letting users install applications. However, with just a bit of tweaking, we can unlock all sorts of functionality.
 
 ## The First Attempt
 
@@ -38,7 +40,7 @@ However, after spending a couple of days figuring out the basics of what this de
 
 - The code to the versions of the applications they distribute is **not open source**, which makes it hard to trust these apps, especially when they're from an unknown party.
 - They've allegedly [**repackaged and redistributed an open source application, while claiming it as their own**](https://github.com/virresh/matvt/releases/tag/phone-v1.03) (they've since walked this back and credited the original developer on their Apps page, but doesn't it doesn't inspire the most trust).
-- **Their launcher doesn't display all installed applications.** I noticed this when I attempted to install F-Droid. I thought that the install had failed as there was nothing in the launcher, but then I noticed a notification from F-Droid. Judging by the fact that the launcher does display [MATVT Cursor](https://github.com/virresh/matvt), they are likely filtering for `com.android.cts.* `  package names.
+- **Their launcher doesn't display all installed applications.** I noticed this when I attempted to install F-Droid. I thought that the install had failed as there was nothing in the launcher, but then I noticed a notification from F-Droid. Judging by the fact that the launcher does display [MATVT Cursor](https://github.com/virresh/matvt), they are likely filtering for `com.android.cts.*` package names.
 
 **Overall, I felt like there was the potential for so much more, so I opted to wipe the phone and start fresh, this time with the challenge of not using any of Apps4Flip's software.**
 
@@ -46,13 +48,13 @@ However, after spending a couple of days figuring out the basics of what this de
 
 From the aforementioned couple days of experimentation, there were **a few key insights gained:**
 
-- **APKs can be sideloaded by Bluetooth transferring them from another device**, then selecting the file transfer notification to run the app installer. (This also works with the built-in browser, as I found out later, but Bluetooth transfer is much more convenient)
+- **APKs can be sideloaded by Bluetooth transferring them from another device**, then selecting the file transfer notification to run the app installer (This also works with the built-in browser, as I found out later, but Bluetooth transfer is much more convenient).
 - **Any compatible APK can be installed**, not just ones with `com.android.cts.*` packagenames, which apparently is the case for some phones.
 - **Applications that register as launchers can be installed**, and the phone will give you a prompt to choose a launcher app to use every time you unlock, but **while in any other launcher there is no consistent access to the all-important notification menu**.
 
 Armed with these insights, I reset the phone and went through the following setup:
 
-***DISCLAIMER: This phone is a spare/test device for me, and as such I had very few qualms with removing core system applications (primarily the default launcher). Don't follow this step-by-step unless you're ok with the phone potentially needing to be reset!***
+***DISCLAIMER: This phone is a spare/test device for me, and as such I had very few qualms with removing core system applications (primarily the default launcher). While the phone seems to be functioning fine, you won' be able to get any system apps you uninstall back without resetting the phone!***
 
 ### Step 1: Enable Developer Mode
 
@@ -99,11 +101,16 @@ To give us access to the notification menu without relying on the default launch
 After installing the application and granting it the appropriate accessibility permissions, **add one of your buttons as a "Custom Button" and bind it to launch your notification menu**. I also took the chance to add a few more key bindings to get back some more normal Android interaction. This specific phone has [dedicated hardware buttons for PTT](https://www.verizon.com/support/knowledge-base-215459/), including a big red side button, so I decided to bind multiple actions to it and make it a "home button":
 
 - **Big Red PTT Button:**
+
     - *Single Tap:* Home
+
     - *Double Tap:* Recents
+
     - *Long Press:* Notifications
+
 - **Top Right "Stop" Button:**
-    - *Hold:* Screenshot
+
+    - *Long Press:* Screenshot
 
 Now we can get rid of all that inconsistent launcher behavior by simply **removing Kyocera's default launcher**. To do this, first open `adb` (or WebADB) back up, and list the applications with `adb shell pm list packages`. Then, look for one with a package name that looks something like `jp.kyocera.home` (I'm really annoyed at myself for not writing the exact package name down). Remove the application with `adb shell pm uninstall -k --user 0 com.example.changethis`. At your own risk, feel free to "debloat" and remove carrier apps while you're here. I've chosen to keep everything as-is and just disable these extra apps for now, but I may experiment with how much of these I can remove in the future.
 
@@ -111,6 +118,6 @@ Once the default launcher is removed, Keikai launcher should now act seamlessly 
 
 ## Conclusions
 
-Overall, with this setup I think this phone feels far more liberated than with the Apps4Flip suite of apps, as we now have access to a full launcher, multiple app stores on-device, and much more granular controls with remapped buttons. The biggest barrier with this phone now is D-Pad support in applications. Some apps, like the official [F-Droid client](https://f-droid.org/), and games, like [Crossy Road](https://play.google.com/store/apps/details?id=com.yodo1.crossyroad), treat the D-Pad as a first-class citizen and work exceptionally well. Others, like Spotify, don't work at all with the D-Pad and require fully using mouse mode, which can be cumbersome. Many fall into a middle category, where some UI elements can be selected and used with the D-Pad, but other parts need mouse mode. **I think there is potential for a part two of this post as I explore more of which apps give the humble D-Pad the love that it deserves.
+Overall, with this setup I think this phone feels far more liberated than with the Apps4Flip suite of apps, as we now have access to a full launcher, multiple app stores on-device, and much more granular controls with remapped buttons. The biggest barrier with this phone now is D-Pad support in applications. Some apps, like the official [F-Droid client](https://f-droid.org/), and games, like [Crossy Road](https://play.google.com/store/apps/details?id=com.yodo1.crossyroad), treat the D-Pad as a first-class citizen and work exceptionally well. Others, like Spotify, don't work at all with the D-Pad and require fully using mouse mode, which can be cumbersome. Many fall into a middle category, where some UI elements can be selected and used with the D-Pad, but other parts need mouse mode. **I think there is potential for a part two of this post as I explore more of which apps give the humble D-Pad the love that it deserves.**
 
 This phone is a super intriguing device, and now that I have a solid base setup I'm excited to try and see what further capabilities can be added!

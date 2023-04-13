@@ -5,7 +5,7 @@ I'm Sohal, an undergrad Computer Science student and technology enthusiast who's
 
 *I Need More Coffee* serves as a place for me to ["just put stuff out there"](https://matthiasott.com/notes/just-put-stuff-out-there), and host a wide variety of content, from deep delves into odd corners of the internet to overviews of the latest piece of strange hardware that's made it's way into my hands. 
 
-I'm also participating in **[100 Days to Offload](https://100daystooffload.com/)** until **April 3rd, 2023**, and have posted `003/100` times.
+I'm also participating in **[100 Days to Offload](https://100daystooffload.com/)** until **April 3rd, 2023**, and have posted `004/100` times.
 
 I hope you enjoy reading some of my ramblings below :)
 
