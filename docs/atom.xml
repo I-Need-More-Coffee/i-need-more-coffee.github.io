@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-04-08T13:53:33Z</updated>
+	<updated>2023-04-13T00:34:45Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
 	<id>https://ineedmore.coffee,2023-01-04:default-atom-feed/</id>
 	<entry>
-		<title>KDE Experiment Day 0: Giving It A Sincere Try</title>
-		<content type="html">&lt;h1&gt;KDE Experiment Day 0: Giving It A Sincere Try&lt;/h1&gt;
+		<title>Giving KDE A Sincere Try</title>
+		<content type="html">&lt;h1&gt;Giving KDE A Sincere Try&lt;/h1&gt;
 &lt;p&gt;2023-04-07&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I’ve been using mainly GTK-based environments for a long time.&lt;/strong&gt; When I was first forced to switch to Linux in 2020 (my cobbled-together Surface Pro 3 finally succumbed to having magnesium dust shot into the battery after I &lt;a href=&quot;https://hackaday.com/2015/04/28/upgrading-a-microsoft-surface-to-a-1-tb-ssd/&quot;&gt;dremeled into the back to replace a dead SSD&lt;/a&gt;, and my shiny, expensive MacBook Pro had suffered from a motherboard power failure), it was on an old desktop with a 2nd generation i5, and no GPU. Windows 10 lagged and stuttered to an unusable extent, so while I had only tinkered with Linux distros to some extent on spare laptops and Raspberry Pi’s, I had to make the plunge.&lt;/p&gt;
 &lt;p&gt;When I first installed Linux on this desktop, I initially attempted to use KDE but it was unusably messy due to some OpenGL issues with the integrated graphics card. I then switched to XFCE, then i3 (but using primarily GTK applications). I kept i3 on my desktop and used it alongside XFCE, Cinnamon, and then GNOME on my series of secondhand laptops, before fully standardizing on GNOME within the past year after switching away from the desktop to primarily using my &lt;a href=&quot;https://tech-docs.system76.com/models/darp7/README.html&quot;&gt;Darter Pro&lt;/a&gt;.&lt;/p&gt;
@@ -25,7 +25,9 @@
 &lt;p&gt;With the desktop now installed, I set about doing the initial configuration I usually do on a new distro install, items like setting up my keybindings, preferred touchpad settings, and more. One immediate thing that stood out to me was that there was a &lt;em&gt;lot&lt;/em&gt; of settings. Every little thing is configurable in Plasma, it’s what they’re known for, but it does make it a little intimidating on initial install compared to GNOME’s polished but simplistic settings menu.&lt;/p&gt;
 &lt;p&gt;In particular, I was astounded by the sheer amount of choices in the keyboard shortcut menu. Even the most basic of shortcuts, like &lt;code&gt;Ctrl+C&lt;/code&gt; and &lt;code&gt;Ctrl+V&lt;/code&gt;, can be remapped to whatever you want. The custom shortcuts are incredibly powerful too, being able to not only run a command but also send keyboard input.&lt;/p&gt;
 &lt;p&gt;So far, I also really appreciate how snappy and sane KWin’s quick-tiling is. One of my gripes with GNOME has been how limiting only letting uses easily tile two applications side by side is. Additionally, GNOME adds more animations to this, and the tiling simply doesn’t feel as snappy or quick as a result.&lt;/p&gt;
-&lt;p&gt;I’m still not quite sure how much I’ll be able to get used to Plasma’s design language, but maybe some customization will help with that part, especially considering that even on GNOME I change the system theme and interface font to my own liking (with immense effort thanks to the switch to &lt;code&gt;libadwaita&lt;/code&gt;). &lt;strong&gt;Tonight and tomorrow, I plan on getting the applications I need installed and configured, as well as begin trying out some of KDE’s applications for various tasks, but overall I&#39;m excited to kick the tires and see what KDE has to offer!&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;p&gt;I’m still not quite sure how much I’ll be able to get used to Plasma’s design language, but maybe some customization will help with that part, especially considering that even on GNOME I change the system theme and interface font to my own liking (with immense effort thanks to the switch to &lt;code&gt;libadwaita&lt;/code&gt;). &lt;strong&gt;Tonight and tomorrow, I plan on getting the applications I need installed and configured, as well as begin trying out some of KDE’s applications for various tasks, but overall I&#39;m excited to kick the tires and see what KDE has to offer!&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Edit (2023-04-11):&lt;/strong&gt; I opted not to write a sequel to this post, as I stuck with the experiment, and rather enjoyed KDE, but didn&#39;t feel like I had enough thoughts to structure an entirely separate post. Overall, the interface is certainly more busy, but does managed to look very cohesive and well-organized nonetheless, expecially when paired with a good system theme like &lt;a href=&quot;https://github.com/Luwx/Lightly&quot;&gt;Lightly&lt;/a&gt; and a good colorscheme like &lt;a href=&quot;https://github.com/catppuccin/kde&quot;&gt;Catppuccin Latte&lt;/a&gt; (yes, I went with a light theme for this setup, as KDE actually looks really good with light themes, whether it&#39;s the default Breeze theme or with a third party one like the aforementioned). I&#39;ll be going back to my Fedora Silverblue setup for now, especially as the distro I chose, KDE Neon, doesn&#39;t work very well with my hardware, but I do hope to have a machine running KDE full time at some point!&lt;/p&gt;</content>
 		<link href="https://ineedmore.coffee/kde0"/>
 		<id>https://ineedmore.coffee/kde0</id>
 		<updated>2023-04-07T00:00:00Z</updated>
@@ -44,6 +46,94 @@
 		<id>https://ineedmore.coffee/first</id>
 		<updated>2023-04-03T00:00:00Z</updated>
 		<published>2023-04-03T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Unleashing the Potential of an AOSP Flip Phone</title>
+		<content type="html">&lt;h1&gt;Unleashing the Potential of an AOSP Flip Phone&lt;/h1&gt;
+&lt;p&gt;2023-04-12&lt;/p&gt;
+&lt;p&gt;Around a week ago, I noticed a flip phone being auctioned off on my city&#39;s surplus website. I&#39;ve been looking around for interesting phones as part of a separate project, so I jumped on it and bought it, not entirely knowing the rabbit hole I&#39;d go down in my attempts to push the capabilities of this device.&lt;/p&gt;
+&lt;p&gt;The device in question is a &lt;strong&gt;&lt;a href=&quot;https://www.phonearena.com/phones/Kyocera-DuraXV-LTE_id10714&quot;&gt;Kyocera DuraXV LTE&lt;/a&gt;&lt;/strong&gt;, a rugged flip phone from 2017:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Device Profile: Kyocera DuraXV LTE&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/duraxv/closed.png&quot; alt=&quot;Closed Kyocera DuraXV Flip Phone&quot; /&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Key              &lt;/th&gt;&lt;th&gt;Value            &lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Release Date     &lt;/td&gt;&lt;td&gt;September 2017   &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Release Price    &lt;/td&gt;&lt;td&gt;$264             &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Device Type      &lt;/td&gt;&lt;td&gt;Flip Phone       &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Primary Display  &lt;/td&gt;&lt;td&gt;2.6 inch 320x240 &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Processor        &lt;/td&gt;&lt;td&gt;Snapdragon 210   &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Memory           &lt;/td&gt;&lt;td&gt;2GB              &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Storage          &lt;/td&gt;&lt;td&gt;16GB + microSD   &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Battery          &lt;/td&gt;&lt;td&gt;1530 mAh         &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Camera           &lt;/td&gt;&lt;td&gt;5MP Rear         &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Operating System &lt;/td&gt;&lt;td&gt;AOSP 7           &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;hr /&gt;
+&lt;p&gt;This phone&#39;s hardware is definitely unique. It appears to be a slightly upgraded and heavily ruggedized cousin to the &lt;a href=&quot;https://www.phonearena.com/phones/Kyocera-Cadence-LTE_id10675&quot;&gt;Kyocera Cadence&lt;/a&gt; (this becomes relevant later), and has this interesting &quot;rounded hexagon&quot; motif going on. The buttons arent too bad, the D-Pad feels nice, and overall it generally feels much higher end than the usual budget KaiOS feature phones.&lt;/p&gt;
+&lt;p&gt;What&#39;s really interesting about this phone is the operating system it&#39;s running. With modern flip/feature phones, outside of generic ones that use an RTOS, the two most prominent options are the &lt;a href=&quot;https://www.kaiostech.com/explore/devices/&quot;&gt;veritable battalion of KaiOS phones&lt;/a&gt; on the low end, with their basic apps and limited functionality, and full on Android feature phones, like the &lt;a href=&quot;&quot;&gt;AGM M7&lt;/a&gt; and &lt;a href=&quot;&quot;&gt;Xiaomi F21 Pro&lt;/a&gt; where the only differentiating factor from a low-end smartphone is the form factor. However, somewhere in the middle, there is a category of stealth Android phones, phones that use a locked down version of AOSP but don&#39;t make it clear to the user. &lt;strong&gt;This Kyocera phone is just that, a flip phone that on the surface appears to be a boring, basic interface, but is secretly hiding Android goodies underneath&lt;/strong&gt;. These phones at an initial glance seem to be even less capable than KaiOS phones, typically not even letting users install applications. However, with just a bit of tweaking, we can unlock all sorts of functionality.&lt;/p&gt;
+&lt;h2&gt;The First Attempt&lt;/h2&gt;
+&lt;p&gt;When I first began investigating this phone, and slowly realized it had Android guts, as well as it&#39;s similarity to the Kyocera Cadence, I stumbled upon &lt;a href=&quot;https://www.apps4flip.com/&quot;&gt;Apps4Flip&lt;/a&gt;, a website that offers custom applications for Android feature phones similar to this one. They offer utilities such as a custom application menu that can be launched from the notification screen, a cursor that can be invoked to simulate touchscreen input, and a couple utilities like a file manager, office suite, weather app, and a variety of applications relevant to those of Jewish faith. The purpose of this site seems to be to enable certain sects of Orthodox Jews to add more functionality to make these phones viable for daily use, which is essential to them as &lt;a href=&quot;https://en.wikipedia.org/wiki/Haredi_Judaism#Technology&quot;&gt;devices that can access the unfiltered internet are considered &lt;em&gt;terefah&lt;/em&gt; (not kosher)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, after spending a couple of days figuring out the basics of what this device can do using their software, doing some experimentation, and reading up on places like &lt;a href=&quot;https://reddit.com/r/dumbphones&quot;&gt;r/dumbphones&lt;/a&gt;, &lt;strong&gt;I decided that I wanted something different&lt;/strong&gt;, and I wanted more. Apps4Flip&#39;s solutions feel like the only options when trying to search around for information on extending the capabilities of devices like these, but &lt;strong&gt;there are also some drawbacks to using their software&lt;/strong&gt;, namely:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The code to the versions of the applications they distribute is &lt;strong&gt;not open source&lt;/strong&gt;, which makes it hard to trust these apps, especially when they&#39;re from an unknown party.&lt;/li&gt;
+&lt;li&gt;They&#39;ve allegedly &lt;a href=&quot;https://github.com/virresh/matvt/releases/tag/phone-v1.03&quot;&gt;&lt;strong&gt;repackaged and redistributed an open source application, while claiming it as their own&lt;/strong&gt;&lt;/a&gt; (they&#39;ve since walked this back and credited the original developer on their Apps page, but doesn&#39;t it doesn&#39;t inspire the most trust).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Their launcher doesn&#39;t display all installed applications.&lt;/strong&gt; I noticed this when I attempted to install F-Droid. I thought that the install had failed as there was nothing in the launcher, but then I noticed a notification from F-Droid. Judging by the fact that the launcher does display &lt;a href=&quot;https://github.com/virresh/matvt&quot;&gt;MATVT Cursor&lt;/a&gt;, they are likely filtering for &lt;code&gt;com.android.cts.* &lt;/code&gt;  package names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Overall, I felt like there was the potential for so much more, so I opted to wipe the phone and start fresh, this time with the challenge of not using any of Apps4Flip&#39;s software.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Unlocking the Potential&lt;/h2&gt;
+&lt;p&gt;From the aforementioned couple days of experimentation, there were &lt;strong&gt;a few key insights gained:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;APKs can be sideloaded by Bluetooth transferring them from another device&lt;/strong&gt;, then selecting the file transfer notification to run the app installer. (This also works with the built-in browser, as I found out later, but Bluetooth transfer is much more convenient)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Any compatible APK can be installed&lt;/strong&gt;, not just ones with &lt;code&gt;com.android.cts.*&lt;/code&gt; packagenames, which apparently is the case for some phones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Applications that register as launchers can be installed&lt;/strong&gt;, and the phone will give you a prompt to choose a launcher app to use every time you unlock, but &lt;strong&gt;while in any other launcher there is no consistent access to the all-important notification menu&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Armed with these insights, I reset the phone and went through the following setup:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DISCLAIMER: This phone is a spare/test device for me, and as such I had very few qualms with removing core system applications (primarily the default launcher). Don&#39;t follow this step-by-step unless you&#39;re ok with the phone potentially needing to be reset!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Step 1: Enable Developer Mode&lt;/h3&gt;
+&lt;p&gt;Enabling developer mode on this phone is very similar to any other Android phone. Simply navigate to &lt;code&gt;Settings -&amp;gt; About phone -&amp;gt; Software information&lt;/code&gt;, select &lt;code&gt;Build number&lt;/code&gt;, then press the &lt;code&gt;OK&lt;/code&gt; button 7 times or until a prompt at the bottom of the screen says that you are now in Developer Mode.&lt;/p&gt;
+&lt;p&gt;Now, when we navigate back out to the main &lt;code&gt;Settings&lt;/code&gt; menu, there should be an additional option labeled &lt;code&gt;Developer options&lt;/code&gt;. &lt;strong&gt;Select that and scroll down to &lt;code&gt;USB debugging&lt;/code&gt; and turn that on&lt;/strong&gt;. This will allow us to connect to the phone with &lt;code&gt;adb&lt;/code&gt; later to grant applications special permissions.&lt;/p&gt;
+&lt;h3&gt;Step 2: Transfer over Some Apps&lt;/h3&gt;
+&lt;p&gt;Download these 4 APKs to a computer or another Android device:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://f-droid.org/packages/com.anpmech.launcher/&quot;&gt;Keikai Launcher&lt;/a&gt;: The launcher we will be using to replace the default. It&#39;s pretty ugly on this phone due to some icon issues, but it&#39;s the one I&#39;ve found that works best with the D-Pad&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/virresh/matvt/releases/tag/phone-v1.03&quot;&gt;MATVT Cursor&lt;/a&gt;: A cursor application that we can use to simulate touch input. Essential for interacting with apps at times&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://f-droid.org/en/&quot;&gt;F-Droid&lt;/a&gt;: A marketplace for free and open source Android apps, and a great place to find simple apps that work well with this device&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://f-droid.org/packages/com.aurora.store/&quot;&gt;Aurora Store&lt;/a&gt;: Allows us to download applications from the Google Play Store&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;First, transfer over Keikai Launcher.&lt;/strong&gt; We&#39;ll need to do this twice, as when we attempt to select the notification the first time, the phone will prompt us to open Settings to enable &quot;installing apps from unknown sources&quot;. Follow the prompts and toggle the setting on, then transfer the file again and install it. &lt;strong&gt;Now, every time we unlock the phone (if it&#39;s locked with a PIN code), the phone will prompt you to choose between &quot;Idle Launcher&quot; (the default homescreen) and Keikai launcher.&lt;/strong&gt; Having access to the default homescreen is crucial at this stage, because it gives us consistent access to the Notifications menu.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next, transfer over MATVT Cursor.&lt;/strong&gt; Once the application is installed, we will need to use &lt;code&gt;adb&lt;/code&gt; to grant it certain permissions, as I wasn&#39;t able to successfully do so from within the application. &lt;a href=&quot;https://webadb.com/&quot;&gt;WebADB&lt;/a&gt; is a great tool to run &lt;code&gt;adb&lt;/code&gt; commands from the browser if you aren&#39;t interested in installing the tool locally.&lt;/p&gt;
+&lt;p&gt;After connecting to the phone with &lt;code&gt;adb&lt;/code&gt; (or WebADB), run these commands (if using WebADB, remove the &lt;code&gt;adb shell&lt;/code&gt; portion from each command):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;adb shell appops set com.android.cts.io.github.virresh.matvt SYSTEM_ALERT_WINDOW allow
+adb shell settings put secure accessibility_enabled 1
+adb shell settings put secure enabled_accessibility_services com.android.cts.io.github.virresh.matvt/com.android.cts.io.github.virresh.matvt.services.MouseEventService
+adb shell am startservice com.android.cts.io.github.virresh.matvt/com.android.cts.io.github.virresh.matvt.services.MouseEventService
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Note: The last command may fail or error out (it did for me). I&#39;ve still been able to use the cursor perfectly fine, so I can only assume that the last command either is still doing what it needs to do, or isn&#39;t entirely necessary.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Lastly, go into the MATVT application and &lt;strong&gt;override the activation key&lt;/strong&gt;. I overrode it to key 17, but feel free to remap it to whichever &lt;a href=&quot;https://elementalx.org/button-mapper/android-key-codes/&quot;&gt;keycode&lt;/a&gt; works best for you.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Once these commands have been run, we should now be able to invoke a virtual mouse by holding the &lt;code&gt;*&lt;/code&gt; key (if you overrode the activation key with key 17).&lt;/strong&gt; Holding the key for a short time while in mouse mode will also allow us to scroll using the virtual mouse, but this can be hit-or-miss at times.&lt;/p&gt;
+&lt;p&gt;Now, transfer over and install &lt;strong&gt;F-Droid&lt;/strong&gt; and &lt;strong&gt;Aurora Store&lt;/strong&gt;, and set them up. With just that simple step, we now have a phone that can download applications off both the F-Droid and Google Play stores!&lt;/p&gt;
+&lt;h3&gt;Step 3: Polishing Things Up&lt;/h3&gt;
+&lt;p&gt;Right now, our phone still pesters about which launcher to use whenever we unlock, which is good because right now, &lt;strong&gt;we need the consistent access to the notification menu that the default launcher gives us&lt;/strong&gt;. However, this is still annoying, and can result in some inconsistent behavior especially when using the back key.&lt;/p&gt;
+&lt;p&gt;To give us access to the notification menu without relying on the default launcher, we can use the &lt;a href=&quot;https://play.google.com/store/apps/details?id=flar2.homebutton&quot;&gt;Button Mapper&lt;/a&gt; application from the Play Store. &lt;strong&gt;This neat tool allows us to bind actions to any key on our device&lt;/strong&gt;, including launching the notification menu.&lt;/p&gt;
+&lt;p&gt;After installing the application and granting it the appropriate accessibility permissions, &lt;strong&gt;add one of your buttons as a &quot;Custom Button&quot; and bind it to launch your notification menu&lt;/strong&gt;. I also took the chance to add a few more key bindings to get back some more normal Android interaction. This specific phone has &lt;a href=&quot;https://www.verizon.com/support/knowledge-base-215459/&quot;&gt;dedicated hardware buttons for PTT&lt;/a&gt;, including a big red side button, so I decided to bind multiple actions to it and make it a &quot;home button&quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Big Red PTT Button:&lt;/strong&gt;
+  - &lt;em&gt;Single Tap:&lt;/em&gt; Home
+  - &lt;em&gt;Double Tap:&lt;/em&gt; Recents
+  - &lt;em&gt;Long Press:&lt;/em&gt; Notifications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top Right &quot;Stop&quot; Button:&lt;/strong&gt;
+  - &lt;em&gt;Hold:&lt;/em&gt; Screenshot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now we can get rid of all that inconsistent launcher behavior by simply &lt;strong&gt;removing Kyocera&#39;s default launcher&lt;/strong&gt;. To do this, first open &lt;code&gt;adb&lt;/code&gt; (or WebADB) back up, and list the applications with &lt;code&gt;adb shell pm list packages&lt;/code&gt;. Then, look for one with a package name that looks something like &lt;code&gt;jp.kyocera.home&lt;/code&gt; (I&#39;m really annoyed at myself for not writing the exact package name down). Remove the application with &lt;code&gt;adb shell pm uninstall -k --user 0 com.example.changethis&lt;/code&gt;. At your own risk, feel free to &quot;debloat&quot; and remove carrier apps while you&#39;re here. I&#39;ve chosen to keep everything as-is and just disable these extra apps for now, but I may experiment with how much of these I can remove in the future.&lt;/p&gt;
+&lt;p&gt;Once the default launcher is removed, Keikai launcher should now act seamlessly as your primary homescreen!&lt;/p&gt;
+&lt;h2&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Overall, with this setup I think this phone feels far more liberated than with the Apps4Flip suite of apps, as we now have access to a full launcher, multiple app stores on-device, and much more granular controls with remapped buttons. The biggest barrier with this phone now is D-Pad support in applications. Some apps, like the official &lt;a href=&quot;https://f-droid.org/&quot;&gt;F-Droid client&lt;/a&gt;, and games, like &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.yodo1.crossyroad&quot;&gt;Crossy Road&lt;/a&gt;, treat the D-Pad as a first-class citizen and work exceptionally well. Others, like Spotify, don&#39;t work at all with the D-Pad and require fully using mouse mode, which can be cumbersome. Many fall into a middle category, where some UI elements can be selected and used with the D-Pad, but other parts need mouse mode. &lt;strong&gt;&lt;/strong&gt;think there is potential for a part two of this post as I explore more of which apps give the humble D-Pad the love that it deserves.&lt;/p&gt;
+&lt;p&gt;This phone is a super intriguing device, and now that I have a solid base setup I&#39;m excited to try and see what further capabilities can be added!&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/duraxv"/>
+		<id>https://ineedmore.coffee/duraxv</id>
+		<updated>2023-04-12T00:00:00Z</updated>
+		<published>2023-04-12T00:00:00Z</published>
 	</entry>
 	<entry>
 		<title>ex librīs</title>
