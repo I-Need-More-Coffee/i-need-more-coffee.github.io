@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Defines the character set to be used-->
+	<meta charset="utf-8">
+
+	<!-- Modifies the viewport to render correctly on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- EDIT THIS -->
+	<!-- Provides a summary of site for search results -->
+	<meta name="description" content="I Need More Coffee | A collection of thoughts, ideas, and oddities">
+
+	<!-- Indicates that the page supports light and dark colorschemes, and that light is preferred -->
+	<meta name="color-scheme" content="light dark">
+
+	<!-- EDIT THIS -->
+	<!-- Defines the page favicon -->
+	<link rel="icon" type="image/x-icon" href="/public/favicon/favicon.ico">
+
+	<!-- Page Title -->
+	<title>Vanity</title>
+
+	<!-- EDIT THIS -->
+	<!-- Link for the Atom Feed -->
+	<link href="https://ineedmore.coffee/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+	
+	<!-- EDIT THIS -->
+	<!-- Imports stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<nav>
+	<!-- EDIT THESE! -->
+	<!-- Navigation links that make up the navbar -->
+	<a href="/">Home</a><span> | </span><a href="/uses">Uses</a><span> | </span><a href="/meta">Meta</a><span> | </span><a href="/about">About</a><span> | </span><a href="/atom.xml">RSS</a>
+</nav>
+
+<!-- Begins main tag -->
+<main>
+<h1>Vanity</h1>
+<p>Updated 2023-04-23</p>
+<p><img src="../public/images/devices/vanity.png" alt="HP Pavilion x360 from the front right, folded into tent mode" /></p>
+<h2>Info Table</h2>
+<table>
+<tr><th>Key           </th><th>Value                         </th></tr>
+<tr><td>Type          </td><td>Laptop                        </td></tr>
+<tr><td>Model Name    </td><td>HP Pavilion x360              </td></tr>
+<tr><td>Model Number  </td><td>13-a010dx                     </td></tr>
+<tr><td>OS            </td><td>Windows 11                    </td></tr>
+<tr><td>Year Made     </td><td>2014                          </td></tr>
+<tr><td>Year Acquired </td><td>2022                          </td></tr>
+<tr><td>CPU           </td><td>Intel Core i3-4030u           </td></tr>
+<tr><td>GPU           </td><td>Intel HD Graphics 4400        </td></tr>
+<tr><td>RAM           </td><td>4GB DDR3                      </td></tr>
+<tr><td>Storage       </td><td>128GB SATA SSD                </td></tr>
+</table>
+<h2>Summary</h2>
+<p>This machine reeks of 2014 budget laptop, in many of the same ways that my own first laptop (a Dell Inspiron of the same era) did. Cheap plastic construction, 1366x768 screen, a low end Haswell processor paired with 4 gigs of ram (or 8 if you were fancy), and a hard drive with a somewhat large 512GB or 1TB capacity to distract you from the fact that it's a slow 5400rpm drive just eager to whir it's way to the grave. However, this machine does have a few things going for it in my arsenal. When paired with an SSD it performs <em>ok</em>, even able to handle Windows 11 with the help of an iso modified with <a href="https://github.com/ntdevlabs/tiny11builder">tiny11builder</a>. I also underestimated the utility of the 2-in-1 form factor, as the tent mode really comes in handy to move the screen closer to me when working on math or physics assignments, or get the keyboard out of the way so I can use my <a href="./uses">keyboard of preference</a> instead. It also looks sort of nice on the outside, at least for a plastic laptop.</p>
+<h2>Notes</h2>
+<ul>
+<li>Somewhat mediocre battery life, averaging 3-4 hours on Windows.</li>
+<li>Viewing angles on the screen are terrible, somewhat nullifying a lot of the utility that the 2-in-1 form factor provides. Screen needs to be at a very particular (and somewhat awkward at times) angle to not wash out.</li>
+<li>The touchscreen has a noticeably better surface than other similar devices I've used, but it is unfortunately pretty reflective, and light mode is often necessary for a usable experience </li>
+<li>The keyboard and touchpad are frankly mediocre, and it's also developing this pesky issue where pressing the palmrest a certain way makes the keyboard think the super key is being held down, and I need to hit the super key to get it to stop freaking out.</li>
+</ul>
+<h2>Software Notes</h2>
+<h3>Windows 11, Spring 2022 to Present</h3>
+<p>This laptop is currently running Windows 11 22H2, installed from a modified iso created using <a href="https://github.com/ntdevlabs/tiny11builder">tiny11builder</a>. Getting Windows 11 to run smoothly on this laptop also involves being aggressive about not letting services run in the background, blocking network traffic using <a href="https://www.henrypp.org/product/simplewall">simplewall</a>, and using Group Policy to disable things like Widgets. However, I do really like Windows 11's tablet experience compared to previous versions of Windows, and feel like it strikes a nice balance of being very touch friendly while also not limiting the user from a typical laptop workflow even when in tablet mode.</p>
+</main>
+
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+    <small>
+        Want to get in contact? Shoot me an email at <a href="mailto:sohalsdr@gmail.com">sohalsdr@gmail.com</a>.<br>
+        Built with <a href="https://github.com/sohalsdr/bliss">bliss</a>.<br>
+        The content of this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br>
+        The <a href="https://github.com/I-Need-More-Coffee/i-need-more-coffee.github.io">code for this site</a> is <a href="https://github.com/I-Need-More-Coffee/i-need-more-coffee.github.io/blob/main/LICENSE">MIT</a>.
+    </small>
+</footer>
