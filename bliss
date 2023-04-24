@@ -95,8 +95,14 @@ while read -r f title created; do
 	write_page "$f" "$title" "$created"
 done < $FOLDER/posts.tsv
 
-# Pages
+# General Pages
 index_tsv pages > $FOLDER/pages.tsv
 while read -r f title created; do
 	write_page "$f" "$title" "$created"
 done < $FOLDER/pages.tsv
+
+# Device Pages
+index_tsv devices > $FOLDER/devices.tsv
+while read -r f title created; do
+	write_page "$f" "$title" "$created"
+done < $FOLDER/devices.tsv
