@@ -2,6 +2,8 @@
 
 Updated 2023-04-23
 
+*This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
+
 ![Latitude 3380 from the front](../public/images/devices/sloth.png)
 
 ## Info Table
@@ -28,3 +30,7 @@ This laptop is a pretty solid but not very performant machine. It's built somewh
 - I've been told that this model has also proved to work well with ChromeOS Flex.
 - The laptop is intended for an education market, so it has all of the goodies like Dell's relatively feature-packed enterprise BIOS, it's easy to open up and repair, and Dell provides a surprising amount of documentation on how to swap out various components.
 - Has pretty good battery life from what I've experienced so far on my unit, have achieved 12+ hours which is great for a laptop approaching 5 years old.
+
+## Software Notes
+
+No operating system installed at the moment.

@@ -1,7 +1,5 @@
 # Stuff I use
 
-*Note: This page is currently a* ***work in progress***
-
 **Updated 2023-04-05**
 
 I always love seeing the technology, software, workflows and anything else that people use on a daily bases. I find that it points me towards new things to use in my own life that are tried and tested, as well as giving me a window into the way that person accomplishes their day-to-day activities.

@@ -2,6 +2,8 @@
 
 Updated 2023-04-23
 
+*This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
+
 ![System76 Darter Pro Laptop from the front](../public/images/devices/impenitence.png)
 
 ## Info Table
@@ -36,6 +38,6 @@ It has a gorgeous screen, decent enough keyboard, and performs exceptionally for
 
 ## Software Notes
 
-### Fedora Silverblue, Spring 2023 to Present
+### Fedora Silverblue, February 2023 to Present
 
 I currently have it running [Fedora Silverblue](https://silverblue.fedoraproject.org/) (with Arch containers installed using [Distrobox](https://github.com/89luca89/distrobox) for programming). Though running an immutable system has it's oddities, it has forced me to get more methodical about managing my system, and combined with the leaps that GNOME has made with it's recent 4x releases, has given me a very rock-solid and modern feeling experience.

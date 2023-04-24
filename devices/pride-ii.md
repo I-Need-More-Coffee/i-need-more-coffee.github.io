@@ -2,6 +2,8 @@
 
 Updated 2023-04-23
 
+*This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
+
 ![iPhone 14 Pro from the front](../public/images/devices/pride2.png)
 
 ## Info Table
@@ -23,4 +25,10 @@ It's the latest iPhone at the time of writing, so there isn't really much I can 
 
 ## Notes
 
-None so far
+None so far.
+
+## Software Notes
+
+### iOS 16, September 2022 - Present
+
+No notes to speak of, I keep my iOS installs pretty vanilla as of late.

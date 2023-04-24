@@ -2,6 +2,8 @@
 
 Updated 2023-04-23
 
+*This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
+
 ![HP Pavilion x360 from the front right, folded into tent mode](../public/images/devices/vanity.png)
 
 ## Info Table
@@ -31,6 +33,6 @@ This machine reeks of 2014 budget laptop, in many of the same ways that my own f
 
 ## Software Notes
 
-### Windows 11, Spring 2022 to Present
+### Windows 11, April 2022 to Present
 
 This laptop is currently running Windows 11 22H2, installed from a modified iso created using [tiny11builder](https://github.com/ntdevlabs/tiny11builder). Getting Windows 11 to run smoothly on this laptop also involves being aggressive about not letting services run in the background, blocking network traffic using [simplewall](https://www.henrypp.org/product/simplewall), and using Group Policy to disable things like Widgets. However, I do really like Windows 11's tablet experience compared to previous versions of Windows, and feel like it strikes a nice balance of being very touch friendly while also not limiting the user from a typical laptop workflow even when in tablet mode.

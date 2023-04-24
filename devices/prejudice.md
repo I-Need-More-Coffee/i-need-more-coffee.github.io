@@ -2,6 +2,8 @@
 
 Updated 2023-04-23
 
+*This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
+
 ![iPad 2 from the front](../public/images/devices/prejudice.png)
 
 ## Info Table
@@ -23,4 +25,14 @@ This was one of the first devices I've ever owned, getting it as a gift in the 3
 
 ## Notes
 
-- Apple screwed over A5 devices with the update to iOS 9. I used [iOS-OTA-Downgrader](https://github.com/LukeZGD/iOS-OTA-Downgrader) to downgrade this device to iOS 6, making it a much more pleasant experience (and oddly enough giving me a wider selection of apps to choose from due to various efforts to preserve archives of iOS 2-6 apps). I hope to write a comprehensive post soon detailing how to revive devices like this.
+- Great battery for it's age.
+- Solid screen, people bash it for not being Retina but its still certainly a decent experience
+- Just incredible fit and finish, it really holds up relative to modern devices. Pretty thin and portable too, especially in a Smart Cover.
+- I found an official Smart Cover as new old stock in a thrift store, it looks incredibly clean and is surprisingly sufficient for protecting the tablet, but does have a habit of coming off inside my backpack.
+
+
+## Software Notes
+
+### iOS 6.3.1, January 2023 - Present
+
+Apple screwed over A5 devices with the update to iOS 9. I used [iOS-OTA-Downgrader](https://github.com/LukeZGD/iOS-OTA-Downgrader) to downgrade this device to iOS 6, making it a much more pleasant experience (and oddly enough giving me a wider selection of apps to choose from due to various efforts to preserve archives of iOS 2-6 apps). I hope to write a comprehensive post soon detailing how to revive devices like this.
