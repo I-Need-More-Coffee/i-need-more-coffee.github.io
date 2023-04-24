@@ -1,40 +1,40 @@
 # Stuff I use
 
-**Updated 2023-04-05**
+**Updated 2023-04-24**
 
 I always love seeing the technology, software, workflows and anything else that people use on a daily bases. I find that it points me towards new things to use in my own life that are tried and tested, as well as giving me a window into the way that person accomplishes their day-to-day activities.
 
 ## Devices
 
-*Make sure to check out the [devices page](./devices) for summaries and notes on a number of devices I've owned or used!*
+*Make sure to check out the [devices page](/devices) for summaries and notes on a number of devices I've owned or used!*
 
 ### Primary Laptop(s)
 
 ![Latitude 3380 from the front](../public/images/devices/sloth.png)
 
-[Sloth](./sloth), my Dell Latitude 3380
+[Sloth](../sloth), my Dell Latitude 3380
 
 ![System76 Darter Pro Laptop from the front](../public/images/devices/impenitence.png)
 
-[Impenitence](./impenitence), my System76 Darter Pro *(It's battery failed recently, so out of commission as a laptop for the time being)*
+[Impenitence](../impenitence), my System76 Darter Pro *(It's battery failed recently, so out of commission as a laptop for the time being)*
 
 ### Sacrificial Windows Machine
 
 ![HP Pavilion x360 from the front right, folded into tent mode](../public/images/devices/vanity.png)
 
-[Vanity](./vanity), my HP Pavilion 13 x360
+[Vanity](../vanity), my HP Pavilion 13 x360
 
 ### Phone
 
 ![iPhone 14 Pro from the front](../public/images/devices/pride2.png)
 
-[Pride II](./pride-ii), my iPhone 14 Pro
+[Pride II](../pride-ii), my iPhone 14 Pro
 
 ### Tablet
 
 ![iPad 2 from the front](../public/images/devices/prejudice.png)
 
-[Prejudice](./prejudice), my iPad 2
+[Prejudice](../prejudice), my iPad 2
 
 ## Stationery
 
