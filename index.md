@@ -1,5 +1,5 @@
 # I Need More Coffee
-### Written by Sohal Sudheer
+**Written by Sohal Sudheer**
 
 I'm Sohal, an undergrad Computer Science student and technology enthusiast who's passionate about open source software, Unix-like operating systems, technology's role in education, technology repair and sustainability, and odd hardware from the early 2010s.
 
