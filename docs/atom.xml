@@ -2,11 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-05-15T17:22:54Z</updated>
+	<updated>2023-05-15T19:08:02Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
 	<id>https://ineedmore.coffee,2023-01-04:default-atom-feed/</id>
+	<entry>
+		<title>Doing Some Admin</title>
+		<content type="html">&lt;h1&gt;Doing Some Admin&lt;/h1&gt;
+&lt;p&gt;2023-05-15&lt;/p&gt;
+&lt;p&gt;It’s been a few weeks since I’ve posted to this site, which is quite unfortunate. In that time, I’ve finished off another semester of college, shoved all my possessions into my trusty 4Runner, and hopped on a flight to Isla Verde, Puerto Rico, where I’m writing this post from. &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/some-admin/islaverdebeach.png&quot; alt=&quot;Picture of Isla Verde Beach&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I’ve also taken a renewed interest in making this place my home on the internet, inspired by the numerous other folks on the internet I’ve added to my RSS feed over the past few days (I definitely want to add a &lt;a href=&quot;https://blogroll.org/what-are-blogrolls/&quot;&gt;blogroll&lt;/a&gt; to this site at some point, maybe even a blogroll-roll of other blogrolls and webrings I’ve used to find numerous sites for my RSS list). With that, I’ve decided to do some admin and refactor, as well as better define, all of the subdomains and repositories that comprise (or will comprise) &lt;em&gt;I Need More Coffee&lt;/em&gt;. Many of these changes haven&#39;t happened yet, but will in the coming days or weeks, and may be accompanied by their own posts.&lt;/p&gt;
+&lt;h2&gt;Subdomains&lt;/h2&gt;
+&lt;p&gt;I want to use &lt;em&gt;I Need More Coffee&lt;/em&gt; as a home for a larger portion of my online presence, and as such I&#39;ve decided to start using some subdomains to add other types of pages beyond just this blog. Here are a few subdomains I may add in the future (or may have already added).&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Subdomain &lt;/th&gt;&lt;th&gt;Purpose &lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;@&lt;/code&gt; and &lt;code&gt;www&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Will continue to point to this site, with the amount of pages kept to posts and other hyperrelevant pages. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;pages&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Will serve as a central location for one-off and auxiliary pages that don’t need to hold to the same design language and purpose as pages on the main site, from full-size assets for posts to small project-specific sites. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;verify&lt;/code&gt; &lt;/td&gt;&lt;td&gt;A single &lt;a href=&quot;https://manuelmoreale.com/my-verified-online-presence&quot;&gt;verification page&lt;/a&gt; outlining my entire online presence, verifying that these accounts are mine and that others may not be. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;wiki&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Will be the future home of a wiki or “digital garden” of sorts. Could either take the form of a published &lt;a href=&quot;https://logseq.com&quot;&gt;Logseq&lt;/a&gt; graph, or maybe something more minimal. &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2&gt;GitHub and Repositories&lt;/h2&gt;
+&lt;p&gt;I&#39;m also making some changes to this site&#39;s presence on &lt;a href=&quot;https://github.com/ineedmore-coffee&quot;&gt;GitHub&lt;/a&gt;. The organization has been renamed from &lt;code&gt;I-Need-More-Coffee&lt;/code&gt; to &lt;code&gt;ineedmore-coffee&lt;/code&gt;, as it looks more elegant and is less effort to type. The &lt;a href=&quot;https://github.com/ineedmore-coffee/main&quot;&gt;repository that houses this site&lt;/a&gt; has been renamed from &lt;code&gt;i-need-more-coffee.github.io&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt;, which does technically mean that it&#39;s being served as a &quot;project site&quot; and as a subfolder of my main GitHub pages site, but this doesn&#39;t matter much as I&#39;m pointing my apex domain to this repository, and will be manually specifying subdomains for any other repository I enable GitHub Pages for.&lt;/p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;th&gt;Repository &lt;/th&gt;&lt;th&gt;Purpose &lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;main&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Contains this site. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;pages&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Contains the files for &lt;code&gt;pages.ineedmore.coffee&lt;/code&gt;, will consist a simple directory of HTML files. &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;verify&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Contains the HTML for &lt;code&gt;verify.ineedmore.coffee&lt;/code&gt; &lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;code&gt;meta&lt;/code&gt; &lt;/td&gt;&lt;td&gt;Contains meta-information about how the various sites, repositories, and subdomains are organized and managed &lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;h2&gt;The &quot;Future Link&quot;&lt;/h2&gt;
+&lt;p&gt;This is a new addition to the site that I intend to use in the future, a placeholder page that I can link to, and then later replace with a link to a new post that did not exist at the time of the original post. I&#39;ve written a little bit more about it on &lt;a href=&quot;/future-link&quot;&gt;the page itself&lt;/a&gt;.&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/some-admin"/>
+		<id>https://ineedmore.coffee/some-admin</id>
+		<updated>2023-05-15T00:00:00Z</updated>
+		<published>2023-05-15T00:00:00Z</published>
+	</entry>
 	<entry>
 		<title>Giving KDE A Sincere Try</title>
 		<content type="html">&lt;h1&gt;Giving KDE A Sincere Try&lt;/h1&gt;
