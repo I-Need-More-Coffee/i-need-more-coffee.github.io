@@ -3,7 +3,7 @@
 This website is currently:
 - Built using [bliss](https://github.com/sohalsdr/bliss), a fork of [barf](https://git.sr.ht/~bt/barf)
 - Hosted using [GitHub Pages](https://pages.github.com/)
-- Version controlled with [Git](https://git-scm.com/) and [GitHub](https://github.com/I-Need-More-Coffee/i-need-more-coffee.github.io)
+- Version controlled with [Git](https://git-scm.com/) and [GitHub](https://github.com/ineedmore-coffee/main)
 - Has DNS managed by and traffic proxied through [Cloudflare](https://www.cloudflare.com/dns/)
 
 ## Images
