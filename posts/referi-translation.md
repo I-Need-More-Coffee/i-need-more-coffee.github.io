@@ -16,4 +16,6 @@ One aspect of the original RE;FERI that bugged me was the lack of a dark mode. I
 
 ## Next Steps
 
-I think this system, and having a version in English with a dark mode, will allow me to easily create more pages for *I Need More Coffee*, as well as other personal projects, that preserve the simple, lightweight, and quick-to-load nature of this site. For starters, I plan on using it for the [verification page](https://manuelmoreale.com/my-verified-online-presence) I discussed in a [previous post](https://ineedmore.coffee/some-admin). I'm excited to see what I, and others, can create with this!
+I think this system, and having a version in English with a dark mode, will allow me to easily create more pages for *I Need More Coffee*, as well as other personal projects, that preserve the simple, lightweight, and quick-to-load nature of this site. For starters, I plan on using it for the [verification page](https://manuelmoreale.com/my-verified-online-presence) I discussed in a [previous post](https://ineedmore.coffee/some-admin). I'm excited to see what I, and others, can create with this.
+
+[View the example site here!](https://referi.ineedmore.coffee)
