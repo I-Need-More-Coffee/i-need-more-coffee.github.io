@@ -1,4 +1,4 @@
-# ineedmore.coffee
+# ☕ I Need More Coffee
 
 My personal blog/"brain dump"/"digital garden", based on [bliss](https://github.com/sohalsdr/bliss)
 
