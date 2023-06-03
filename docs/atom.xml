@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-06-02T23:49:22Z</updated>
+	<updated>2023-06-02T23:56:31Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -123,7 +123,7 @@
 &lt;h3&gt;Honorable Mentions&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://posteo.de/en&quot;&gt;Posteo&lt;/a&gt; - Great price, but seems like more of a barebones offering compared to the others. I may consider this service if I need a cheap secondary address under another domain.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.icloud.com/mail&quot;&gt;iCloud&lt;/a&gt; - $0.99/mo for 50GB or $2.99/mo for 200GB, as well as custom domain support and a whole host of other features is a great deal, and I already pay for the 200GB storage tier for iCloud Photos anyways, but I do want to reduce my reliance on Apple services rather than increase it. This is a really compelling deal for those bought into the Apple ecosystem, however.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.icloud.com/mail&quot;&gt;iCloud&lt;/a&gt; - $0.99/mo for 50GB or $2.99/mo for 200GB, as well as custom domain support and a whole host of other features is a great deal, and I already pay for the 200GB storage tier for iCloud Photos anyways, but I want to reduce my reliance on Apple services rather than increase it. If you use a number of Apple devices and are fine with getting bought into the ecosystem, however, this is arguably the most compelling offering out there.&lt;/li&gt;
 &lt;/ul&gt;</content>
 		<link href="https://ineedmore.coffee/mail-cleanup"/>
 		<id>https://ineedmore.coffee/mail-cleanup</id>
