@@ -69,7 +69,7 @@ The next step in this process, beyond migrating accounts to my new e-mail addres
 
 ## Resources
 
-- [r/he subreddit has some good resources and links about degoogling in a broad sense, and has others going through a similar transition away from GMail. [r/privacy](https://reddit.com/r/privacy) is also a great resource, but more general.
+- [r/degoogle](https://reddit.com/r/degoogle) - This subreddit has some good resources and links about degoogling in a broad sense, and has others going through a similar transition away from GMail. [r/privacy](https://reddit.com/r/privacy) is also a great resource, but more general.
 - [The Inbox Zero Series](https://web.archive.org/web/20140317005022/http://inboxzero.com/articles) - A really useful collection of insights about e-mail management and how to handle it effectively. The series includes [a post on processing an inbox down to 0](https://web.archive.org/web/20140409230155/http://www.43folders.com/2006/03/27/process-to-zero), and this may be a good starting point if you have more e-mails to work through than I did.
 
 ## Appendix A: Choosing an e-mail provider
