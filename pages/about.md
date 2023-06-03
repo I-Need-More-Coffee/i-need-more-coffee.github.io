@@ -15,4 +15,4 @@ If you want to read more about the **devices**, **software**, and **other things
 ### Where to find me (besides this site):
 - Check out my [Mastodon](https://fosstodon.org/@sohalsdr)
 - Or maybe my [GitHub](https://github.com/sohalsdr)
-- Feel free to [shoot me an email](mailto:sohalsdr@gmail.com) as well
+- Feel free to [shoot me an email](mailto:sohal@sohalsdr.com) as well

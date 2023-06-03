@@ -30,5 +30,5 @@ There were so many sites and people that inspired me to start sharing my own wri
 **Design Inspirations:**
 - [Bradley Taunt](https://bt.ht)
 - [chötrin](https://chotrin.org/)
-- [koray er's RE;FERI](https://referi.de/)
+- [koray er's RE;FERI](https://referi.de/) \[[My translated version](https://referi.ineedmore.coffee)\]
 - [LOW←TECH MAGAZINE](https://solar.lowtechmagazine.com/)
