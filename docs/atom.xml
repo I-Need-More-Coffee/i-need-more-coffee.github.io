@@ -2,11 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-06-02T23:56:31Z</updated>
+	<updated>2023-06-13T16:45:29Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
 	<id>https://ineedmore.coffee,2023-01-04:default-atom-feed/</id>
+	<entry>
+		<title>Trimming Down The Nerd's Cookbook</title>
+		<content type="html">&lt;h1&gt;Trimming Down The Nerd&#39;s Cookbook&lt;/h1&gt;
+&lt;p&gt;2023-06-13&lt;/p&gt;
+&lt;p&gt;I&#39;ve finally had a chance to do a little cooking again! After being cooped up in a dorm room for two semesters with a shabby excuse of a kitchen shared by the entire floor, I&#39;m back home, with decent burners, a good spice rack, and even an &lt;em&gt;actual fridge&lt;/em&gt;. Now that I&#39;m doing some more cooking, and hopefully will continue to do so for the forseeable future, I want to have a home for some homegrown recipes. This is even more pertinent now than before college, as I&#39;m a recently-minted vegetarian and as a result often adapt recipes I&#39;ve loved making in the past to work with my diet. Thus, I took a look at a project I&#39;ve used once in the past, &lt;a href=&quot;https://github.com/doersino/nyum&quot;&gt;nyum&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&#39;s a shell-script-based static site generator that takes in Markdown and spits out a &lt;a href=&quot;https://doersino.github.io/nyum/_site/index.html&quot;&gt;full recipe site&lt;/a&gt;, with search, a nice layout, and more. Overall a pretty neat little way to spin up a personal cookbook. However, ever since starting to really work with simple, shell-script-based static site generators, like the one used for this site, I don&#39;t like settling with someone else&#39;s way of generating a site, I want to hack on it and adapt it to my tastes. And the amazing thing about these simple static site generators is that it&#39;s incredibly easy to do so!&lt;/p&gt;
+&lt;p&gt;As such, I &lt;a href=&quot;https://github.com/sohalsdr/nyum&quot;&gt;forked nyum&lt;/a&gt;, and made a number of changes. I first tackled deployment, modifying the script to build to &lt;code&gt;docs/&lt;/code&gt; rather than &lt;code&gt;_site&lt;/code&gt;. This allows me to simply deploy the site onto GitHub pages without any additional hassle, as Pages lets you deploy from &lt;code&gt;docs/&lt;/code&gt; (but not any other directory for some absurd reason). I also removed the rsync deployment script, GitHub Action, and supporting code inside &lt;code&gt;build.sh&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Next up was design and load times. My design language on &lt;em&gt;I Need More Coffee&lt;/em&gt; (and other tangential pages in the works) is based around basic HTML, using system fonts, and dithered images, which results in simple, inherently responsive design, as well as blazing fast load times. As such, nyum&#39;s use of webfonts and a header icon wasn&#39;t going to work for me, and I stripped them out. I did keep the other UI icons, as they serve a purpose and I couldn&#39;t be bothered to adapt the layouts to work without icons. Honestly, in my opinion, my &quot;trimmed down&quot; version looks better than the original, but that&#39;s just my taste so your mileage may vary. I also dithered the images in the demo site to be able to compare resource usage between the original nyum and my planned usage.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;And boy do they compare&lt;/strong&gt;. I ran 4 &lt;a href=&quot;https://gtmetrix.com/&quot;&gt;gtmetrix&lt;/a&gt; reports between the two sites:
+ &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/reports/doersino.github.io/nNOV1vqp/&quot;&gt;Original Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/reports/sohalsdr.github.io/JDcdVi40/&quot;&gt;Fork&#39;s Homepage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/reports/doersino.github.io/43OiGORA/&quot;&gt;Original Cheese Buldak Recipe&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/reports/sohalsdr.github.io/UtV3isPa/&quot;&gt;Fork&#39;s Cheese Buldak Recipe&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The fork&#39;s homepage &lt;strong&gt;loaded 3x as fast&lt;/strong&gt; (301ms vs. 958ms) and &lt;strong&gt;transmitted less than a tenth of the data&lt;/strong&gt; (13.6KB vs. 186KB). The recipe page similarly loaded 3x as fast, but there wasn&#39;t as much of a delta in the amount of data transmitted as a vast majority was image data, and the particularly heavy image of the Cheese Buldak didn&#39;t want to reduce in filesize tremendously even when dithered to 4 colors and reduced to 1024px wide. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;On the whole, a few simple changes resulted in a substantial and noticeable decrease in load times and resource usage of this simple site.&lt;/strong&gt; I hope you&#39;ll check out the &lt;a href=&quot;https://sohalsdr.github.io/nyum&quot;&gt;demo site&lt;/a&gt;, or my &lt;a href=&quot;https://cookbook.ineedmore.coffee&quot;&gt;actual cookbook&lt;/a&gt; (it only has the sample Strawberry Smoothie recipe for now, but have more recipes soon, I promise). &lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/trimming-nyum"/>
+		<id>https://ineedmore.coffee/trimming-nyum</id>
+		<updated>2023-06-13T00:00:00Z</updated>
+		<published>2023-06-13T00:00:00Z</published>
+	</entry>
 	<entry>
 		<title>Doing Some Admin</title>
 		<content type="html">&lt;h1&gt;Doing Some Admin&lt;/h1&gt;
