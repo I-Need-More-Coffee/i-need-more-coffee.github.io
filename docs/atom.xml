@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-06-13T16:45:29Z</updated>
+	<updated>2023-06-14T23:49:32Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -25,7 +25,7 @@
 &lt;li&gt;&lt;a href=&quot;https://gtmetrix.com/reports/sohalsdr.github.io/UtV3isPa/&quot;&gt;Fork&#39;s Cheese Buldak Recipe&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The fork&#39;s homepage &lt;strong&gt;loaded 3x as fast&lt;/strong&gt; (301ms vs. 958ms) and &lt;strong&gt;transmitted less than a tenth of the data&lt;/strong&gt; (13.6KB vs. 186KB). The recipe page similarly loaded 3x as fast, but there wasn&#39;t as much of a delta in the amount of data transmitted as a vast majority was image data, and the particularly heavy image of the Cheese Buldak didn&#39;t want to reduce in filesize tremendously even when dithered to 4 colors and reduced to 1024px wide. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;On the whole, a few simple changes resulted in a substantial and noticeable decrease in load times and resource usage of this simple site.&lt;/strong&gt; I hope you&#39;ll check out the &lt;a href=&quot;https://sohalsdr.github.io/nyum&quot;&gt;demo site&lt;/a&gt;, or my &lt;a href=&quot;https://cookbook.ineedmore.coffee&quot;&gt;actual cookbook&lt;/a&gt; (it only has the sample Strawberry Smoothie recipe for now, but have more recipes soon, I promise). &lt;/p&gt;</content>
+&lt;p&gt;&lt;strong&gt;On the whole, a few simple changes resulted in a substantial and noticeable decrease in load times and resource usage of this simple site.&lt;/strong&gt; I hope you&#39;ll check out the &lt;a href=&quot;https://sohalsdr.github.io/nyum&quot;&gt;demo site&lt;/a&gt;, or my &lt;a href=&quot;https://cookbook.ineedmore.coffee&quot;&gt;actual cookbook&lt;/a&gt; (it only has the sample Strawberry Smoothie recipe for now, but will have more recipes soon, I promise). &lt;/p&gt;</content>
 		<link href="https://ineedmore.coffee/trimming-nyum"/>
 		<id>https://ineedmore.coffee/trimming-nyum</id>
 		<updated>2023-06-13T00:00:00Z</updated>
