@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-06-14T23:49:32Z</updated>
+	<updated>2023-06-16T12:38:44Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -193,6 +193,44 @@
 		<id>https://ineedmore.coffee/first</id>
 		<updated>2023-04-03T00:00:00Z</updated>
 		<published>2023-04-03T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Building up an RSS Feed</title>
+		<content type="html">&lt;h1&gt;Building up an RSS Feed&lt;/h1&gt;
+&lt;p&gt;2023-06-16&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I had put off building up a personal RSS feed until just about 2 months ago.&lt;/strong&gt; I don&#39;t entirely know why it took so long, but a lot of it was certainly choice paralysis. There&#39;s so many reader and sync services that it takes a minute to figure out which one to use, and it took me needing to download some variety of RSS reader to test the RSS generation of this site to finally start building my feed. I currently use &lt;a href=&quot;https://netnewswire.com/&quot;&gt;NetNewsWire&lt;/a&gt; on iOS as my primary method of consuming RSS content, as I personally find that smaller screens allow me to focus on reading more than the large, distracting canvas of a laptop screen. &lt;/p&gt;
+&lt;p&gt;With the &lt;a href=&quot;https://www.reddit.com/r/apolloapp/comments/144f6xm/apollo_will_close_down_on_june_30th_reddits/&quot;&gt;ongoing Reddit API fiasco&lt;/a&gt; resulting in me &lt;a href=&quot;https://www.reddit.com/r/Save3rdPartyApps/comments/1476ioa/reddit_blackout_2023_save_3rd_party_apps/&quot;&gt;not using the site&lt;/a&gt;, RSS has served as a much healthier way for me to consume interesting, independent content. These few days have really shown me the merits of consuming and curating content on my own terms. &lt;strong&gt;The biggest barrier with RSS, however, is actually building up a feed of people to subscribe to.&lt;/strong&gt; Without the algorithms that drive sites like Twitter and Reddit, you as the user need to put in that effort to seek out content.&lt;/p&gt;
+&lt;p&gt;To get my RSS feed list, I started with the dozen or so blogs that I had in my &quot;Blogs&quot; bookmark folder at the time, serving as a nice base of content I already know I like. After that, the amount of effort to find more content went up a good bit. The types of sites I follow tend to be individual people writing medium to long form content somewhat infrequently, so it would take a pretty large feed to have around 5-7 pieces of interesting, high quality content to read every day. As a result, I had to start &quot;feed speed dating&quot;.&lt;/p&gt;
+&lt;p&gt;This consisted of finding aggregated lists of links like &lt;a href=&quot;&quot;&gt;blogrolls&lt;/a&gt;, &lt;a href=&quot;&quot;&gt;webrings&lt;/a&gt;, and &quot;.clubs&quot;, and going through each link. When I&#39;m visiting a person&#39;s page, I first &lt;strong&gt;check whether they&#39;ve posted in 2023&lt;/strong&gt;. I then, as a general rule, go through the first page of their posts, and see if I can find &lt;strong&gt;two pieces of content that catch my interest&lt;/strong&gt;, and if so I&#39;ll add them to my RSS feed. I&#39;ll often read some of their posts too, since this has become a nice free-time activity of mine.&lt;/p&gt;
+&lt;p&gt;&lt;details open&gt;
+    &lt;summary&gt;Pages I&#39;ve used to find content, in no particular order:&lt;/summary&gt;
+     &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&quot;https://theforest.link&quot;&gt;The Forest&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://write.as/tmo/blogroll&quot;&gt;tmo&#39;s blogroll&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://www.lkhrs.com/blogroll/&quot;&gt;Luke&#39;s Wild Website blogroll&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://kevquirk.com/blogroll/&quot;&gt;Kev Quirk&#39;s blogroll&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://rusingh.com/blogroll/&quot;&gt;Ru Singh&#39;s blogroll&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://manuelmoreale.com/personal-blogs&quot;&gt;Manuel Moreale&#39;s blog list&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://manuelmoreale.com/i-ll-read-it&quot;&gt;Manuel Moreale&#39;s &quot;I&#39;ll Read It&quot;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://morrick.me/archives/9712&quot;&gt;Riccardo Mori&#39;s &quot;Reading List&quot; posts&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://blogroll.org/&quot;&gt;Ye Olde Blogroll&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://uses.tech/&quot;&gt;This list of developer sites with &quot;/uses&quot; pages&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://engineeringblogs.xyz/&quot;&gt;List of engineering blogs&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://webring.xxiivv.com/&quot;&gt;XXIIVV Webring&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://webring.t0.vc/&quot;&gt;Tin Cans on a String Webring&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://geekring.net/&quot;&gt;geekring&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://1mb.club/&quot;&gt;1MB Club&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://512kb.club/&quot;&gt;512KB Club&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://1kb.club/&quot;&gt;1kB Club&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&quot;https://xhtml.club/&quot;&gt;XHTML Club&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt; 
+    &lt;p&gt;&lt;i&gt;I&#39;ll unfortunately not be tossing my own hat into the ring today, as I plan on adding my blogroll to a wiki section of this site that I have yet to build.&lt;/i&gt;&lt;/p&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;p&gt;Using RSS to entertain myself rather than just scrolling something like Reddit has tremendously increased the value I get per period of &quot;reading time&quot;. When I open NetNewsWire (which has a great UI by the way, I strongly recommend it), I&#39;m greeted by content I &lt;em&gt;know&lt;/em&gt; I like, and that has had thought and effort put into it, rather than having to scroll endlessly to dig up the bits of content that I&#39;m there for. I hope this small resurgence of independent websites, RSS feeds, webrings, and all of these goodies I missed out on by not being alive in the 90s continues.&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/feed-speed-dating"/>
+		<id>https://ineedmore.coffee/feed-speed-dating</id>
+		<updated>2023-06-16T00:00:00Z</updated>
+		<published>2023-06-16T00:00:00Z</published>
 	</entry>
 	<entry>
 		<title>Unleashing the Potential of an AOSP Flip Phone</title>
