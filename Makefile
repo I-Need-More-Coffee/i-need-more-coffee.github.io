@@ -9,10 +9,9 @@ build:
 clean:
 	rm -rf docs/*
 
-# For testing locally, see README
-watch:
-	while true; do \
-	ls -d .git/* * posts/* pages/* header.html | entr -cd make ;\
-	done
+# Builds the site by running build script, runs a Python webserver in the build directory
+test:
+	make build
+	python -m http.server -d docs/
 
 .PHONY: build clean watch
