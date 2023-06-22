@@ -9,6 +9,7 @@
 
 ### Laptops
 
+- [Framework 13 (Wrath II)](../wrath-ii)
 - [System76 Darter Pro 7 (Impenitence)](../impenitence)
 - [Dell Latitude 3380 (Sloth)](../sloth)
 - [HP Pavilion 13 x360 (Vanity)](../vanity)

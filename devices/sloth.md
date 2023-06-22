@@ -1,6 +1,6 @@
 # Sloth
 
-Updated 2023-04-23
+Updated 2023-06-21
 
 *This is a **device page**! To see more of my hardware notes, visit the [Devices](../devices) page.*
 
@@ -12,7 +12,7 @@ Updated 2023-04-23
 | Type          | Laptop                        |
 | Model Name    | Dell Latitude 13 3380         |
 | Model Number  | Dell Latitude 3380            |
-| OS            | Pending Installation          |
+| OS            | None Installed                |
 | Year Made     | 2018                          |
 | Year Acquired | 2021                          |
 | CPU           | Intel Core i3-6006u           |
@@ -33,4 +33,6 @@ This laptop is a pretty solid but not very performant machine. It's built somewh
 
 ## Software Notes
 
-No operating system installed at the moment.
+### Fedora Silverblue, June 2023 to June 2023
+
+I had it running [Fedora Silverblue](https://silverblue.fedoraproject.org/) (with Arch containers installed using [Distrobox](https://github.com/89luca89/distrobox) for programming). 
