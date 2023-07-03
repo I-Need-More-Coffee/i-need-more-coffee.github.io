@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-06-21T20:45:10Z</updated>
+	<updated>2023-07-03T00:09:30Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -322,6 +322,46 @@ adb shell am startservice com.android.cts.io.github.virresh.matvt/com.android.ct
 		<id>https://ineedmore.coffee/duraxv</id>
 		<updated>2023-04-12T00:00:00Z</updated>
 		<published>2023-04-12T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>The Best Windows XP System Is... A Dell Latitude From 2013?</title>
+		<content type="html">&lt;h1&gt;The Best Windows XP System Is... A Dell Latitude From 2013?&lt;/h1&gt;
+&lt;p&gt;2023-07-02&lt;/p&gt;
+&lt;p&gt;&lt;details open&gt;
+    &lt;summary&gt;&lt;small&gt;&lt;i&gt;&lt;b&gt;Important Note:&lt;/b&gt;&lt;/i&gt;&lt;/small&gt;&lt;/summary&gt;
+    &lt;small&gt;&lt;i&gt;In this article, I describe running Windows XP in 2023. When running older Windows, particularly XP, remember to &lt;b&gt;be very careful about connecting the machine to the internet&lt;/b&gt;, as these unsupported mainstream operating systems are vulnerable to a whole host of malware. I personally kept this install of Windows XP offline as a precaution.&lt;/i&gt;&lt;/small&gt;
+&lt;/details&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;ve wanted to have a reliable machine running an older version of Windows for a while now, so that I can run older software and period-correct games that I have sitting around. However, I haven&#39;t had a great solution to this so far. Desktops are mostly out of the question for me, as I move around a ton being a college student, and they&#39;re big and clunky and just a hassle. However, laptops from when XP was in it&#39;s heyday require a lot of babying, often have faulty batteries, and rely on flimsy IDE laptop drives. A potential option I was leaning towards is to use a netbook, as they&#39;re built with more modern hardware but many were still built to run Windows XP, however gaming would be out of the question, and using disc-based software (or even installing Windows XP in the first place) is much more of a chore without a built in disc-drive.&lt;/p&gt;
+&lt;p&gt;When thinking about this recently, however, I remembered an interesting detail. When downloading Windows drivers for my Dell Latitude E6530, I noticed an odd entry in the list of platforms that had drivers for the laptop: &lt;strong&gt;Windows XP&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/dell-latitude-windows-xp/dropdown.png&quot; alt=&quot;Pictured is a drop-down menu with the option &amp;quot;Windows XP&amp;quot; highlighted&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;This was initially quite shocking for a machine that was made in 2013, with a third generation i5 and other modern specs, but it makes reasonable sense given that these laptops were enterprise and education machines, and there are still enterprise users today, like the US government, that make significant use of Windows XP. Digging around a bit more, I found that, at least in this Latitude E6xxx line, this laptop and it&#39;s sister models in the E6x30 generation were the last laptops to have Windows XP support, with 2014&#39;s E6x40 Latitudes dropping support. With this discovery, I decided to see just what the experience was like installing XP on this laptop.&lt;/p&gt;
+&lt;h2&gt;The Laptop&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/dell-latitude-windows-xp/laptop.png&quot; alt=&quot;Pictured is a black and gray 15-inch laptop opened, facing diagonally away from the camera&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The Dell Latitude E6530 is a 15-inch business laptop released in 2013. My particular laptop has an &lt;strong&gt;i5-3320M CPU&lt;/strong&gt;, paired with an &lt;strong&gt;Nvidia NVS 5200M GPU (1GB VRAM)&lt;/strong&gt;, &lt;strong&gt;8GB of DDR3 RAM&lt;/strong&gt;, and a &lt;strong&gt;128GB SSD&lt;/strong&gt;. It also has a pretty nice keyboard, and a great selection of I/O. This may not be a brand-new gaming laptop, but it&#39;s certainly not the type of hardware you&#39;d expect to have support for XP!&lt;/p&gt;
+&lt;h2&gt;Getting it Ready&lt;/h2&gt;
+&lt;p&gt;With the relatively young age of this laptop, I first had to change some BIOS settings to ensure that everything would work well with XP. This included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting the system to Legacy Boot rather than UEFI&lt;/li&gt;
+&lt;li&gt;Disabling Secure Boot&lt;/li&gt;
+&lt;li&gt;Setting the SATA mode to &lt;code&gt;ATA&lt;/code&gt; rather than the default &lt;code&gt;AHCI&lt;/code&gt; or &lt;code&gt;RAID&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Disabling Nvidia Optimus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;None of these newer technologies were around back when XP was around, so it&#39;s important that we disable them to prevent any installation errors. I believe Dell does ship a driver for Intel RST (the &lt;code&gt;RAID&lt;/code&gt; SATA mode in the BIOS), but as I&#39;m just using an unmodified installation disc I decided to keep things simple.&lt;/p&gt;
+&lt;h2&gt;Installing XP&lt;/h2&gt;
+&lt;p&gt;As this laptop has an optical drive, the actual process of installing Windows XP was pretty smooth. I installed a bog-standard copy of Windows XP Professional SP3, just went through it as a normal user would, and the whole process took just under 15 minutes.&lt;/p&gt;
+&lt;p&gt;The rough part was installing the drivers that started this whole saga in the first place. After downloading all of the relevant drivers for my model from Dell&#39;s website and copying them over to the laptop, I was greeted by this error:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/dell-latitude-windows-xp/error.png&quot; alt=&quot;Pictured is a Windows XP error message, indicating that the driver program &amp;quot;is not a valid WIN32 application&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Eventually, after poking around at Dell&#39;s website for a while, I found that each driver offered an alternate download of what seemed like an older driver format, and these packages worked correctly on Windows XP.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/dell-latitude-windows-xp/other-formats.png&quot; alt=&quot;Pictured is a button on Dell&#39;s website offering &amp;quot;other formats&amp;quot; for a driver download&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After getting all the drivers installed, and modifying some settings to taste, I was left with a pretty clean Windows XP desktop:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/dell-latitude-windows-xp/desktop.png&quot; alt=&quot;Pictured is a clean Windows XP desktop, with a black and orange theme&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;The machine performs extraordinarily well on Windows XP, pretty unsurprisingly. While XP can only see 4GB of the system&#39;s RAM, it barely even sips at the RAM, and the CPU usually idles at 1% usage. Software runs snappily, and some games, like Rainbow Six 3: Raven Shield, play pretty well.&lt;/p&gt;
+&lt;p&gt;I think this generation of Dell Latitude makes for a great XP machine to have around, and offers significantly more utility and reliability than something like a netbook, period-correct laptop, or a desktop.&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/dell-latitude-windows-xp"/>
+		<id>https://ineedmore.coffee/dell-latitude-windows-xp</id>
+		<updated>2023-07-02T00:00:00Z</updated>
+		<published>2023-07-02T00:00:00Z</published>
 	</entry>
 	<entry>
 		<title>ex librīs</title>
