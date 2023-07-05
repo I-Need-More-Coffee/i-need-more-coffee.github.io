@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-07-03T00:10:07Z</updated>
+	<updated>2023-07-04T20:39:16Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -179,6 +179,26 @@
 		<id>https://ineedmore.coffee/kde0</id>
 		<updated>2023-04-07T00:00:00Z</updated>
 		<published>2023-04-07T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Joplin 7-Month Retrospective: Unfulfilled Promises</title>
+		<content type="html">&lt;h1&gt;Joplin 7-Month Retrospective: Unfulfilled Promises&lt;/h1&gt;
+&lt;p&gt;2023-07-04&lt;/p&gt;
+&lt;p&gt;My existing note management solution hasn&#39;t been cutting it for a while now. My current approach to notes and knowledge management has been to keep things in &lt;a href=&quot;https://joplinapp.org/&quot;&gt;Joplin&lt;/a&gt; (with my 5TB university OneDrive as the backend), as well as use &lt;a href=&quot;https://simplenote.com/&quot;&gt;Simplenote&lt;/a&gt; as a &quot;drafting box&quot; for things like blog post articles and some small temporary notes.  However, Joplin hasn&#39;t really lived up to what I hoped it would enable for me when I first set it up around 7 months ago. While there are many gripes I&#39;ve had with it, below are the biggest three I had, and the ones I really hope the platform can sort out in the future.&lt;/p&gt;
+&lt;h2&gt;Gripe #1: Plugins Aren&#39;t What They&#39;re Chalked Up To Be&lt;/h2&gt;
+&lt;p&gt;Starting with a (somewhat) small one, the plugin system is very rudimentary, and doesn&#39;t actually deliver the customizability advertised on the rool&#39;s website. First of all, plugins are &lt;strong&gt;desktop only&lt;/strong&gt;, meaning that if there&#39;s a plugin that plays a significant role in how you use your notes, you don&#39;t get to use it on the go. Contrast this with &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt;, where there&#39;s mobile plugin support, and a &lt;a href=&quot;https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mobile-compatible+plugins&quot;&gt;significant amount of supported plugins&lt;/a&gt;. Furthermore, &lt;strong&gt;plugins don&#39;t sync between devices&lt;/strong&gt;. This means that for every device I set up, which is a lot given the amount of laptops I rotate through, I&#39;d need to manually install and configure a whole host of plugins. Combine that with a relatively poor plugin ecosystem compared to other applications, and I opted to just not bother with plugins.&lt;/p&gt;
+&lt;h2&gt;Gripe #2: Poor Desktop UI&lt;/h2&gt;
+&lt;p&gt;This was a much bigger deal-breaker for me. &lt;strong&gt;The desktop application flat-out sucks&lt;/strong&gt;. It already gets significant points taken off for being an Electron application, which switching to a HiDPI laptop has made me absolutely despise. However, it&#39;s also not even a well-executed Electron application, with a frustratingly laid out UI, very little customization, and odd visual glitches like &lt;a href=&quot;https://github.com/laurent22/joplin/issues/7506&quot;&gt;this one that constantly popped up&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/joplin-retrospective/garbled-text.png&quot; alt=&quot;Garbled text on the &amp;quot;Notebooks&amp;quot; pane of the Joplin app&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The desktop client feels like it gets very little love compared to the mobile one, which is frustrating for an application like a note-taking application where a lot of work will be done at a computer with a keyboard. It&#39;s bad enough that a lot of people who do use Joplin, like &lt;a href=&quot;https://www.jupiterbroadcasting.com/hosts/chris/&quot;&gt;Chris from Linux Unplugged&lt;/a&gt; interact with it exclusively using a VSCode plugin. However, I want to keep my code editor and my notes application separate, and the VSCode plugin has also proven to be unreliable, which was the impetus for Chris finally ditching Joplin.&lt;/p&gt;
+&lt;h2&gt;Gripe #3: Sync Issues&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;I haven&#39;t even dared try to install Joplin on my newest laptop, lest it erases my existing notes and I have to fix it again&lt;/strong&gt;. While I appreciate the effort Joplin goes to in order to support a variety of backends, unfortunately I&#39;ve been faced with a number of sync issues from the beginning. It&#39;s become routine to export my Joplin notes, because sync will often break out of nowhere right in the middle of syncing some changes, and the only way I can get it to complete is to take an export, delete all of my notes locally so that they get erased remotely, then restore all of my notes from the export. I shouln&#39;t need to do that regularly in any piece of software, let alone with something as irreplaceable as my notes. A lack of trust in the sync solution has really dissuaded me from continuing to use Joplin recently, and until I can get my notes somewhere else, it&#39;ll likely continue to be that way.&lt;/p&gt;
+&lt;h2&gt;Takeaways&lt;/h2&gt;
+&lt;p&gt;I don&#39;t mean to completely rag on Joplin. There&#39;s a lot that&#39;s done right on the backend, especially when it comes to the freedom to sync your notes the way you want. &lt;strong&gt;However, I can&#39;t help but feel that Joplin has a long way to go to be the Evernote replacement it purports to be, and a lot of users are probably better served looking at other solutions for managing their information.&lt;/strong&gt;&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/joplin-retrospective"/>
+		<id>https://ineedmore.coffee/joplin-retrospective</id>
+		<updated>2023-07-04T00:00:00Z</updated>
+		<published>2023-07-04T00:00:00Z</published>
 	</entry>
 	<entry>
 		<title>A first post</title>
