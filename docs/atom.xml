@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2023-07-04T20:39:16Z</updated>
+	<updated>2023-08-01T13:14:28Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -153,6 +153,65 @@
 		<id>https://ineedmore.coffee/mail-cleanup</id>
 		<updated>2023-06-02T00:00:00Z</updated>
 		<published>2023-06-02T00:00:00Z</published>
+	</entry>
+	<entry>
+		<title>Write An Intent Statement For Your Knowledge Infrastructure </title>
+		<content type="html">&lt;h1&gt;Write An Intent Statement For Your Knowledge Infrastructure &lt;/h1&gt;
+&lt;p&gt;2023-08-01&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../public/images/knowledge-system-intent-statement/pkm-meme.png&quot; alt=&quot;Meme depicting a bell curve, with a simple person on one end and a wise person on the other both using Apple Notes, while a crying person in the middle has a complex setup with many different note-taking applications&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nerds (like me) love trying out new tools.&lt;/strong&gt; At least in the circles I follow, there&#39;s been this new Renaissance of information management and sharing. Using personal knowledge management (PKM) software is gradually becoming more common among knowledge workers, a good few people are starting &lt;a href=&quot;https://www.technologyreview.com/2020/09/03/1007716/digital-gardens-let-you-cultivate-your-own-little-bit-of-the-internet/&quot;&gt;digital gardens&lt;/a&gt;, and there seems to be more and more tools billing themselves as a new way to write or think.&lt;/p&gt;
+&lt;p&gt;However, this can quickly become a trap. I found myself in this situation with a tool I&#39;ve been recently trying called &lt;a href=&quot;https://anytype.io&quot;&gt;Anytype&lt;/a&gt;. For those who are unfamiliar, Anytype is a pretty new contender in the PKM space, and it&#39;s got a lot going from it, from open-sourced code, to encrypted sync, and a pretty nice UI to boot. However, it&#39;s main draw is the type system. As the name suggests, users can make any type, with it&#39;s own attributes and templates, and structure information in whatever way makes sense in their head. &lt;strong&gt;And by god, it&#39;s addictive&lt;/strong&gt;. It&#39;s a really powerful feeling being able to structure information in the exact intuitive manner that makes sense to you.&lt;/p&gt;
+&lt;p&gt;But all of this ended up backfiring on me a little bit.&lt;strong&gt; I was so caught up in the fact that I &lt;em&gt;could&lt;/em&gt; map out a lot of my mind in this tool that I didn&#39;t stop and ask myself whether I &lt;em&gt;should&lt;/em&gt;.&lt;/strong&gt; I&#39;ve been helping my partner build up her own knowledge infrastructure recently, and after explaining the virtues of organization and intent to her I went to add some notes into Anytype and I realized that I had a bit of a mess on my hands. My knowledge infrastructure was a total mess, littered with types I came up with on a whim, and a ton of essentially boilerplate information. I don&#39;t need an entire object for a youtuber just because they publish a single course that I plan on taking one day. &lt;strong&gt;That information isn&#39;t actionable or meaningful for me in any way, and not every piece of knowledge needs every attribute represented in my personal knowledgebase.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ultimately, I realized that I was missing &lt;strong&gt;intent&lt;/strong&gt;. I was creating notes and trying to offload knowledge, but I didn&#39;t have an end goal, a specific idea of what I wanted out of my private knowledgebase. This has been further complicated by the fact that I&#39;m slowly building up a &lt;a href=&quot;https://cst.ineedmore.coffee&quot;&gt;public knowledgebase&lt;/a&gt;, and not having a clear intent means that it&#39;s hard to navigate what should be private and what should be public.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The simple solution for this problem is an intent statement, a document that outlines the intent of a given system.&lt;/strong&gt; I&#39;ve already been doing this in smaller ways, for example whenever I spin up an OS on one of my computers, and enter that information into my notes, I write a small intent statement indicating what the machine is for (Is it my primary machine for some time? Does it have a specific purpose that it&#39;s set up for? Am I just spinning it up to try out a particular piece of software?). Having my intentions thought through, written out, and in a place where I&#39;m reminded of it results in a more organized way of thinking about my systems. &lt;strong&gt;Having an intent statement grounds me into thinking about what I need to do with the system to meet my goals for it, rather than what I could do with the system. &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My intent statement for my Anytype knowledgebase ended up being structured like this:
+&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;&lt;u&gt;Intent&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;Broadly speaking, my Anytype knowledgebase is going to focus on working documents, contrasting with my public knowledgebase that serves to hold more crystallized notes and knowledge, notes that are more divorced from their immediate context in my life. For example, the public knowledgebase would have the information on how to install Tailscale on Fedora Silverblue, while the private knowledgebase would tell me whether I&#39;ve installed Tailscale on a given Silverblue installation using those instructions.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;u&gt;Use Cases&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;System Documents&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  Notes on hardware and software will likely be moved into my public knowledgebase, but the details of how my systems are set up will be in my private knowledgebase, for operational security reasons and because they&#39;re rapidly changing working documents.&lt;/p&gt;
+&lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;       The &quot;Computing Hardware&quot; type and set.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;Drafting Box&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  A private place for me to synthesize knowledge together into thought-out writing, like the posts on this very site.&lt;/p&gt;
+&lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;       The &quot;Drafting Box Draft&quot; type and set.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;Project, Course, and Book Tracking&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  A place for me to keep track of my progress on courses I&#39;m taking, projects I&#39;m working on, and books I&#39;m reading. Essentially &lt;a href=&quot;https://www.techtarget.com/searchapparchitecture/definition/state-management&quot;&gt;state management&lt;/a&gt; for these categories.&lt;/p&gt;
+&lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;       The Project, Book, and Online Course types and sets.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;Idea Formation and Iteration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  A private place for me to outline and form ideas for projects, as well as iterate slowly on them until I decide to implement them&lt;/p&gt;
+&lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;       The Idea type and set.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;  &lt;strong&gt;Miscellaneous Notes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  A place for me to put minor personal notes that don&#39;t really warrant a dedicated area, like grocery lists or what my brother wants from Chipotle. Essentially a replacement for Apple Notes on my phone.&lt;/p&gt;
+&lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;       The Note type and set&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt; &lt;br /&gt;
+I plan on adding intent statements to all of my public and private knowledge systems, as part of a broader initiative for all of my information systems to have &quot;&lt;a href=&quot;https://ineedmore.coffee/future-link&quot;&gt;batteries included&lt;/a&gt;&quot;. For example, you can now read the intent statement for this site &lt;a href=&quot;https://ineedmore.coffee/intent-statement&quot;&gt;here&lt;/a&gt;.
+ &lt;br /&gt;
+&lt;/p&gt;</content>
+		<link href="https://ineedmore.coffee/knowledge-system-intent-statement"/>
+		<id>https://ineedmore.coffee/knowledge-system-intent-statement</id>
+		<updated>2023-08-01T00:00:00Z</updated>
+		<published>2023-08-01T00:00:00Z</published>
 	</entry>
 	<entry>
 		<title>Giving KDE A Sincere Try</title>

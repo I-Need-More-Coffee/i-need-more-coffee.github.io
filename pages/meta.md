@@ -14,6 +14,10 @@ I decided to use dithered images for this site to ensure a quick page loads, add
 
 The images on this site are currently dithered using **Bayer Ordered Dithering**, in **black and white**, with images shrunk to 512px or 256px wide depending on the amount of detail necessary.
 
+## Intent
+
+To learn more about why this website is maintained, and what it's purpose is, be sure to read the site's [intent statement](/intent).
+
 ## Inspirations
 
 There were so many sites and people that inspired me to start sharing my own writing on the internet, as well as influencing the way this website is built and designed.
