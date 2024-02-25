@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Defines the character set to be used-->
+	<meta charset="utf-8">
+
+	<!-- Modifies the viewport to render correctly on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Provides a summary of site for search results -->
+	<meta name="description" content="I Need More Coffee | A collection of thoughts, ideas, and oddities">
+
+	<!-- Indicates that the page supports light and dark colorschemes, and that light is preferred -->
+	<meta name="color-scheme" content="light dark">
+
+	<!-- Defines the page favicon -->
+	<link rel="icon" type="image/x-icon" href="/public/favicon/favicon.ico">
+
+	<!-- Page Title -->
+	<title>The Best Windows XP System Is... A Dell Latitude From 2013?</title>
+
+	<!-- Link for the Atom Feed -->
+	<link href="https://ineedmore.coffee/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+
+	<!-- Imports stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- Privacy-respecting analytics with GoatCounter -->
+	<script data-goatcounter="https://ineedmore-coffee.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</head>
+
+<nav>
+	<!-- Navigation links that make up the navbar -->
+	<a href="/">Home</a><span> | </span><a href="/uses">Uses</a><span> | </span><a href="/devices">Devices</a><span> | </span><a href="https://cookbook.ineedmore.coffee">Cookbook</a><span> | </span><a href="/meta">Meta</a><span> | </span><a href="/about">About</a><span> | </span><a href="/atom.xml">RSS</a>
+</nav>
+
+<!-- Begins main tag -->
+<main>
+
+<h1>The Best Windows XP System Is... A Dell Latitude From 2013?</h1>
+<p>2023-07-02</p>
+<!-- raw HTML omitted -->
+<p>I've wanted to have a reliable machine running an older version of Windows for a while now, so that I can run older software and period-correct games that I have sitting around. However, I haven't had a great solution to this so far. Desktops are mostly out of the question for me, as I move around a ton being a college student, and they're big and clunky and just a hassle. However, laptops from when XP was in it's heyday require a lot of babying, often have faulty batteries, and rely on flimsy IDE laptop drives. A potential option I was leaning towards is to use a netbook, as they have more modern hardware but were still built to run Windows XP, however gaming would be out of the question, and using disc-based software (or even installing Windows XP in the first place) is much more of a chore without a built in disc drive.</p>
+<p>When thinking about this recently, however, I remembered an interesting detail. When downloading Windows drivers for my Dell Latitude E6530, I noticed an odd entry in the list of platforms that had drivers for the laptop: <strong>Windows XP</strong>.</p>
+<p><img src="../public/images/dell-latitude-windows-xp/dropdown.png" alt="Pictured is a drop-down menu with the option &quot;Windows XP&quot; highlighted" /></p>
+<p>This was initially quite shocking for a machine that was made in 2013, with a third generation i5 and other modern specs, but it makes reasonable sense given that these laptops were enterprise and education machines, and there are still enterprise users today, like the US government, that make significant use of Windows XP. Digging around a bit more, I found that, at least in this Latitude E6xxx line, this laptop and it's sister models in the E6x30 generation were the last laptops to have Windows XP support, with 2014's E6x40 Latitudes dropping support. With this discovery, I decided to see just what the experience was like installing XP on this laptop.</p>
+<h2>The Laptop</h2>
+<p><img src="../public/images/dell-latitude-windows-xp/laptop.png" alt="Pictured is a black and gray 15-inch laptop opened, facing diagonally away from the camera" /></p>
+<p>The Dell Latitude E6530 is a 15-inch business laptop released in 2013. My particular laptop has an <strong>i5-3320M CPU</strong>, paired with an <strong>Nvidia NVS 5200M GPU (1GB VRAM)</strong>, <strong>8GB of DDR3 RAM</strong>, and a <strong>128GB SSD</strong>. It also has a pretty nice keyboard, and a great selection of I/O. This may not be a brand-new gaming laptop, but it's certainly not the type of hardware you'd expect to have support for XP!</p>
+<h2>Getting it Ready</h2>
+<p>With the relatively young age of this laptop, I first had to change some BIOS settings to ensure that everything would work well with XP. This included:</p>
+<ul>
+<li>Setting the system to Legacy Boot rather than UEFI</li>
+<li>Disabling Secure Boot</li>
+<li>Setting the SATA mode to <code>ATA</code> rather than the default <code>AHCI</code> or <code>RAID</code></li>
+<li>Disabling Nvidia Optimus</li>
+</ul>
+<p>None of these newer technologies were around back when XP was around, so it's important that we disable them to prevent any installation errors. I believe Dell does ship a driver for Intel RST (the <code>RAID</code> SATA mode in the BIOS), but as I'm just using an unmodified installation disc I decided to keep things simple.</p>
+<h2>Installing XP</h2>
+<p>As this laptop has an optical drive, the actual process of installing Windows XP was pretty smooth. I installed a bog-standard copy of Windows XP Professional SP3, just went through it as a normal user would, and the whole process took just under 15 minutes.</p>
+<p>The rough part was installing the drivers that started this whole saga in the first place. After downloading all of the relevant drivers for my model from Dell's website and copying them over to the laptop, I was greeted by this error:</p>
+<p><img src="../public/images/dell-latitude-windows-xp/error.png" alt="Pictured is a Windows XP error message, indicating that the driver program &quot;is not a valid WIN32 application&quot;" /></p>
+<p>Eventually, after poking around at Dell's website for a while, I found that each driver offered an alternate download of what seemed like an older driver format, and these packages worked correctly on Windows XP.</p>
+<p><img src="../public/images/dell-latitude-windows-xp/other-formats.png" alt="Pictured is a button on Dell's website offering &quot;other formats&quot; for a driver download" /></p>
+<p>After getting all the drivers installed, and modifying some settings to taste, I was left with a pretty clean Windows XP desktop:</p>
+<p><img src="../public/images/dell-latitude-windows-xp/desktop.png" alt="Pictured is a clean Windows XP desktop, with a black and orange theme" /></p>
+<h2>Thoughts</h2>
+<p>The machine performs extraordinarily well on Windows XP, pretty unsurprisingly. While XP can only see 4GB of the system's RAM, it barely even sips at the RAM, and the CPU usually idles at 1% usage. Software runs snappily, and some games, like Rainbow Six 3: Raven Shield, play pretty well.</p>
+<p>I think this generation of Dell Latitude makes for a great XP machine to have around, and offers significantly more utility and reliability than something like a netbook, period-correct laptop, or a desktop.</p>
+</main>
+
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+    <small>
+        Want to get in contact? Shoot me an email at <a href="mailto:sohal@sohalsdr.com">sohal@sohalsdr.com</a>.<br>
+        Built with <a href="https://github.com/sohalsdr/bliss">bliss</a>.<br>
+        The content of this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br>
+        The <a href="https://github.com/ineedmore-coffee/main">code for this site</a> is <a href="https://github.com/ineedmore-coffee/main/blob/main/LICENSE">MIT</a>.
+    </small>
+</footer>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Defines the character set to be used-->
+	<meta charset="utf-8">
+
+	<!-- Modifies the viewport to render correctly on mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Provides a summary of site for search results -->
+	<meta name="description" content="I Need More Coffee | A collection of thoughts, ideas, and oddities">
+
+	<!-- Indicates that the page supports light and dark colorschemes, and that light is preferred -->
+	<meta name="color-scheme" content="light dark">
+
+	<!-- Defines the page favicon -->
+	<link rel="icon" type="image/x-icon" href="/public/favicon/favicon.ico">
+
+	<!-- Page Title -->
+	<title>Joplin 7-Month Retrospective: Unfulfilled Promises</title>
+
+	<!-- Link for the Atom Feed -->
+	<link href="https://ineedmore.coffee/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed for blog posts" />
+
+	<!-- Imports stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- Privacy-respecting analytics with GoatCounter -->
+	<script data-goatcounter="https://ineedmore-coffee.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</head>
+
+<nav>
+	<!-- Navigation links that make up the navbar -->
+	<a href="/">Home</a><span> | </span><a href="/uses">Uses</a><span> | </span><a href="/devices">Devices</a><span> | </span><a href="https://cookbook.ineedmore.coffee">Cookbook</a><span> | </span><a href="/meta">Meta</a><span> | </span><a href="/about">About</a><span> | </span><a href="/atom.xml">RSS</a>
+</nav>
+
+<!-- Begins main tag -->
+<main>
+
+<h1>Joplin 7-Month Retrospective: Unfulfilled Promises</h1>
+<p>2023-07-04</p>
+<p>My existing note management solution hasn't been cutting it for a while now. My current approach to notes and knowledge management has been to keep things in <a href="https://joplinapp.org/">Joplin</a> (with my 5TB university OneDrive as the backend), as well as use <a href="https://simplenote.com/">Simplenote</a> as a &quot;drafting box&quot; for things like blog post articles and some small temporary notes.  However, Joplin hasn't really lived up to what I hoped it would enable for me when I first set it up around 7 months ago. While there are many gripes I've had with it, below are the biggest three I had, and the ones I really hope the platform can sort out in the future.</p>
+<h2>Gripe #1: Plugins Aren't What They're Chalked Up To Be</h2>
+<p>Starting with a (somewhat) small one, the plugin system is very rudimentary, and doesn't actually deliver the customizability advertised on the rool's website. First of all, plugins are <strong>desktop only</strong>, meaning that if there's a plugin that plays a significant role in how you use your notes, you don't get to use it on the go. Contrast this with <a href="https://obsidian.md/">Obsidian</a>, where there's mobile plugin support, and a <a href="https://publish.obsidian.md/hub/02+-+Community+Expansions/02.01+Plugins+by+Category/Mobile-compatible+plugins">significant amount of supported plugins</a>. Furthermore, <strong>plugins don't sync between devices</strong>. This means that for every device I set up, which is a lot given the amount of laptops I rotate through, I'd need to manually install and configure a whole host of plugins. Combine that with a relatively poor plugin ecosystem compared to other applications, and I opted to just not bother with plugins.</p>
+<h2>Gripe #2: Poor Desktop UI</h2>
+<p>This was a much bigger deal-breaker for me. <strong>The desktop application flat-out sucks</strong>. It already gets significant points taken off for being an Electron application, which switching to a HiDPI laptop has made me absolutely despise. However, it's also not even a well-executed Electron application, with a frustratingly laid out UI, very little customization, and odd visual glitches like <a href="https://github.com/laurent22/joplin/issues/7506">this one that constantly popped up</a>:</p>
+<p><img src="../public/images/joplin-retrospective/garbled-text.png" alt="Garbled text on the &quot;Notebooks&quot; pane of the Joplin app" /></p>
+<p>The desktop client feels like it gets very little love compared to the mobile one, which is frustrating for an application like a note-taking application where a lot of work will be done at a computer with a keyboard. It's bad enough that a lot of people who do use Joplin, like <a href="https://www.jupiterbroadcasting.com/hosts/chris/">Chris from Linux Unplugged</a> interact with it exclusively using a VSCode plugin. However, I want to keep my code editor and my notes application separate, and the VSCode plugin has also proven to be unreliable, which was the impetus for Chris finally ditching Joplin.</p>
+<h2>Gripe #3: Sync Issues</h2>
+<p><strong>I haven't even dared try to install Joplin on my newest laptop, lest it erases my existing notes and I have to fix it again</strong>. While I appreciate the effort Joplin goes to in order to support a variety of backends, unfortunately I've been faced with a number of sync issues from the beginning. It's become routine to export my Joplin notes, because sync will often break out of nowhere right in the middle of syncing some changes, and the only way I can get it to complete is to take an export, delete all of my notes locally so that they get erased remotely, then restore all of my notes from the export. I shouln't need to do that regularly in any piece of software, let alone with something as irreplaceable as my notes. A lack of trust in the sync solution has really dissuaded me from continuing to use Joplin recently, and until I can get my notes somewhere else, it'll likely continue to be that way.</p>
+<h2>Takeaways</h2>
+<p>I don't mean to completely rag on Joplin. There's a lot that's done right on the backend, especially when it comes to the freedom to sync your notes the way you want. <strong>However, I can't help but feel that Joplin has a long way to go to be the Evernote replacement it purports to be, and a lot of users are probably better served looking at other solutions for managing their information.</strong></p>
+</main>
+
+<footer role="contentinfo">
+    <span><a href="#">↑ Back to Top</a></span><br><br>
+    <small>
+        Want to get in contact? Shoot me an email at <a href="mailto:sohal@sohalsdr.com">sohal@sohalsdr.com</a>.<br>
+        Built with <a href="https://github.com/sohalsdr/bliss">bliss</a>.<br>
+        The content of this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.<br>
+        The <a href="https://github.com/ineedmore-coffee/main">code for this site</a> is <a href="https://github.com/ineedmore-coffee/main/blob/main/LICENSE">MIT</a>.
+    </small>
+</footer>
