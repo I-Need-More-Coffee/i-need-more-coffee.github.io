@@ -8,10 +8,28 @@ Check it out [here](https://ineedmore.coffee)
 
 1. Make a new post in `posts/`
 	a. Put any images for that post in `public/images/<post-name>`
-2. Run `make build` to rebuild the site
-3. `git add`, `git commit`, and `git push`
+2. Run `make test` in a nix shell to test the site
 
-***Note:** In the case of a page build error, you can run steps 2-3 again to trigger a commit that just updates a timestamp in the atom feed and forces Pages to attempt a rebuild.*
+## Dependencies and Build Instructions
+
+All of the site's dependencies are managed using [Nix](https://nixos.org/), so having `nix` available is the only dependency, and `nix` will manage everything else!
+
+If, for whatever reason, you wish to manually install the dependencies, the important ones are:
+
+- `comrak` -- a Markdown parser based on Rust used to, well, parse the Markdown
+- `rsync` -- used by the Makefile to move files around when building the site
+- `make` / `gnumake` -- GNU Make, needed to execute the Makefile
+- `entr` -- used to monitor changes in the directory for `make test`
+- `python3` -- used for it's HTTP server module to run the webserver for `make test`
+- `git` -- needed to pull info from Git for metadata
+
+To build the site:
+
+1. Run `nix-shell --pure` in the project directory to enter a Nix shell with the dependencies
+2. Run `make build` to build the site
+3. `git add`, `git commit`, and `git push` to get the new build into Git and committed 
+
+***Note:** In the case of a page build error in Github Pages, you can run steps 2-3 again to trigger a commit that just updates a timestamp in the atom feed and forces Pages to attempt a rebuild.*
 
 ## Directory Layout
 
@@ -50,6 +68,8 @@ Check it out [here](https://ineedmore.coffee)
 │           └── Device photos are all aggregated into this folder for cleanliness.
 ├── README.md
 │   └── The page you're reading right now.
+├── shell.nix
+│   └── Nix shell config, easily and automatically creates an isolated environment to built and test site
 ├── style.css
 │   └── Stylesheet for the site.
 └── templates

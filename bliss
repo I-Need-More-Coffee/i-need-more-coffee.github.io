@@ -1,6 +1,6 @@
 #!/bin/sh
 set -eu
-MARKDOWN=smu
+MARKDOWN=comrak
 FOLDER="docs"
 IFS='	'
 

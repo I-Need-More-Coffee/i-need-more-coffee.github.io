@@ -12,6 +12,6 @@ clean:
 # Builds the site by running build script, runs a Python webserver in the build directory
 test:
 	make build
-	python -m http.server -d docs/
+	python3 -m http.server -d docs/
 
 .PHONY: build clean watch
