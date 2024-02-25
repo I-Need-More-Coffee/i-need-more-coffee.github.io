@@ -75,5 +75,5 @@ My intent statement for my Anytype knowledgebase ended up being structured like 
 >
 >       The Note type and set
    
-I plan on adding intent statements to all of my public and private knowledge systems, as part of a broader initiative for all of my information systems to have "[batteries included](https://ineedmore.coffee/future-link)". For example, you can now read the intent statement for this site [here](https://ineedmore.coffee/intent-statement).
+I plan on adding intent statements to all of my public and private knowledge systems, as part of a broader initiative for all of my information systems to have "[batteries included](https://ineedmore.coffee/future-link)". For example, you can now read the intent statement for this site ~~[here](https://ineedmore.coffee/intent-statement)~~ \[EDIT 02-25-2024: This page has since been removed, and is now located within the [colophon](/colophon)\].
    

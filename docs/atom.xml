@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>I Need More Coffee</title>
 	<link href="https://ineedmore.coffee/atom.xml" rel="self" />
-	<updated>2024-02-25T15:24:34Z</updated>
+	<updated>2024-02-25T15:46:46Z</updated>
 	<author>
 		<name>sohalsdr</name>
 	</author>
@@ -191,7 +191,7 @@
 &lt;p&gt;       &lt;strong&gt;Implementation&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;       The Note type and set&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;I plan on adding intent statements to all of my public and private knowledge systems, as part of a broader initiative for all of my information systems to have &amp;quot;&lt;a href=&quot;https://ineedmore.coffee/future-link&quot;&gt;batteries included&lt;/a&gt;&amp;quot;. For example, you can now read the intent statement for this site &lt;a href=&quot;https://ineedmore.coffee/intent-statement&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;p&gt;I plan on adding intent statements to all of my public and private knowledge systems, as part of a broader initiative for all of my information systems to have &amp;quot;&lt;a href=&quot;https://ineedmore.coffee/future-link&quot;&gt;batteries included&lt;/a&gt;&amp;quot;. For example, you can now read the intent statement for this site &lt;del&gt;&lt;a href=&quot;https://ineedmore.coffee/intent-statement&quot;&gt;here&lt;/a&gt;&lt;/del&gt; [EDIT 02-25-2024: This page has since been removed, and is now located within the &lt;a href=&quot;/colophon&quot;&gt;colophon&lt;/a&gt;].&lt;/p&gt;</content>
 		<link href="https://ineedmore.coffee/knowledge-system-intent-statement"/>
 		<id>https://ineedmore.coffee/knowledge-system-intent-statement</id>
 		<updated>2023-08-01T00:00:00Z</updated>

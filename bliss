@@ -1,6 +1,7 @@
 #!/bin/sh
 set -eu
-MARKDOWN=comrak
+MARKDOWN="comrak"
+FLAGS="--gfm" 
 FOLDER="docs"
 IFS='	'
 
@@ -19,7 +20,7 @@ index_html() {
 	sed "s/{{TITLE}}/$title/" header.html
 
 	# Intro text
-	$MARKDOWN index.md
+	$MARKDOWN $FLAGS index.md
 
 	# Posts
 	while read -r f title created; do
@@ -51,7 +52,7 @@ EOF
 
 	while read -r f title created; do
 
-		content=$($MARKDOWN "$f" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g')
+		content=$($MARKDOWN $FLAGS "$f" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g')
 		post_link=$(echo "$f" | sed -E 's|posts/(.*).md|\1|')
 		basic_date=$(echo $(head -3 "$f" | tail -1))
 		published_date=$(date -d $basic_date +%FT%TZ)
@@ -79,7 +80,7 @@ write_page() {
 	created=$(echo $(head -3 "$filename" | tail -1))
 	title=$2
 
-	$MARKDOWN "$filename" | \
+	$MARKDOWN $FLAGS "$filename" | \
 		cat header.html - |\
 		sed "s|{{TITLE}}|$title|" \
 		> "$target" && cat footer.html >> "$target"
